@@ -1,0 +1,967 @@
+[
+  {
+    "id": "68d895f0-016d-4077-a01c-8af227884e75",
+    "timestamp": "2026-06-03T15:38:52.550593",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The phrase \"overwhelmed, I directly\" creates a comma splice, incorrectly joining two independent clauses without a proper conjunction.",
+        "The verb tense in \"so that I will have a clue\" is inconsistent with the preceding past tense verb \"learned.\"",
+        "The verb \"ask\" in \"I also ask some of my friends\" should be in the past tense to match the narrative's time frame.",
+        "The pronoun \"i\" in \"what i do\" should be capitalized.",
+        "The phrase \"use ai as my assistance\" contains an awkward grammatical construction where the noun \"assistance\" is used incorrectly to refer to a helper.",
+        "The verb \"learn\" in \"I also learn how to read\" should be in the past tense to maintain consistency with the other past actions."
+      ],
+      "spelling": [],
+      "structure": [],
+      "tone": [],
+      "rewrite": "Assignment1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released I was clueless and very overwhelmed, and$ I directly reflected back on what I learned in class so that I would$ have a clue of what the research paper is. I also asked$ some of my friends about research. I learned a lot on this assignment. I learned how to find a source. So what I$ do is to use ai as an$ assistant$ to find sources for my research. I also learned$ how to read and analyse other research papers."
+    }
+  },
+  {
+    "id": "4df27252-4ee7-45b9-9b58-ab8a9e63d2dc",
+    "timestamp": "2026-06-03T14:41:22.174550",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" contains a comma splice. It should be separated into two sentences or joined with a coordinating conjunction.",
+        "The phrase \"so that I will have a clue\" has an inconsistent verb tense/mood; it should be \"would have a clue\" to match the past context.",
+        "The phrase \"clue of what\" uses an uncommon preposition; \"clue about what\" is more grammatically correct.",
+        "The verb \"ask\" in \"I also ask some of my friends about research\" is in the present tense but should be in the past tense (\"asked\") to match the surrounding narration.",
+        "The preposition \"on\" in \"I learned a lot on this assignment\" is not the most appropriate; \"from\" or \"through\" would be more grammatically precise.",
+        "The phrase \"ai as my assistance\" uses an incorrect noun form for \"assistance\" when referring to AI in this context; \"assistant\" or a rephrasing like \"for assistance\" would be grammatically correct.",
+        "The verb \"learn\" in \"I also learn how to read and analyse other research papers\" is in the present tense but should be in the past tense (\"learned\") to maintain consistency."
+      ],
+      "spelling": [],
+      "structure": [
+        "The text flows reasonably well, but some sentences are quite long and could be split for better readability, particularly the second sentence."
+      ],
+      "tone": [
+        "The tone is informal and reflective, suitable for a personal journal entry or a casual report to a peer or instructor. It conveys personal struggle and learning."
+      ],
+      "rewrite": "Assignment1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released I was clueless and very overwhelmed. I$ directly reflected back on what I learned in class so that I would$ have a clue about$ what the research paper is. I also asked$ some of my friends about research. I learned a lot from$ this assignment. I learned how to find a source. So what i do is to use ai as my assistant$ to find sources for my research. I also learned$ how to read and analyse other research papers."
+    }
+  },
+  {
+    "id": "3031ebb7-7829-4e13-8491-ddef08740caf",
+    "timestamp": "2026-06-03T14:40:34.337426",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\" (space needed for readability and standard formatting).",
+        "\"pretty tough\" is informal; consider \"quite challenging\" or \"very difficult\" for a more formal tone.",
+        "Run-on sentence: \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" This sentence needs to be split or rephrased for clarity and flow.",
+        "Redundancy: \"reflected back\" can simply be \"reflected.\"",
+        "Tense inconsistency: \"I will have a clue\" should be \"I would have a clue\" to match the past tense context of the surrounding sentences.",
+        "Awkward phrasing: \"a clue of what the research paper is\" could be rephrased as \"an understanding of what a research paper entails\" or \"a clearer idea of research papers.\"",
+        "Verb tense error: \"I also ask\" should be \"I also asked\" (past tense).",
+        "Word choice: \"on this assignment\" could be \"from this assignment\" or \"through this assignment\" for better precision.",
+        "Capitalization error: \"i do\" should be \"I do.\"",
+        "Acronym capitalization: \"ai\" should be \"AI.\"",
+        "Phrasing: \"as my assistance\" is a bit clunky; consider \"to assist me\" or \"as a tool.\"",
+        "Tense inconsistency: \"So what i do is to use ai\" switches to present tense in a passage predominantly in the past tense. It should be \"So what I did was to use AI\" or rephrased to fit the reflective past tense.",
+        "Verb tense error: \"I also learn\" should be \"I also learned\" (past tense)."
+      ],
+      "spelling": [
+        "\"analyse\" (British English) could be \"analyze\" (American English) for general consistency in standard American English; however, it is not strictly an error if British English is the intended standard. Given \"general writing,\" \"analyze\" is often preferred in the US."
+      ],
+      "structure": [
+        "The long run-on sentence starting with \"The day the assignment was released...\" breaks the flow and readability. It should be broken into shorter sentences or restructured.",
+        "The text has a somewhat repetitive sentence structure, often starting with \"I learned...\" or \"I also...\". Varying sentence openings and combining related ideas could improve cohesion.",
+        "The sudden shift from past tense reflection to present tense action (\"So what i do is...\") disrupts the narrative flow and makes the timeline confusing. Maintaining consistent past tense would improve clarity."
+      ],
+      "tone": [
+        "The tone is generally informal, using phrases like \"pretty tough,\" \"clueless,\" \"a lot,\" and \"a clue.\" While this offers a personal and honest reflection, a slightly more formal approach might be beneficial for general academic or professional writing.",
+        "The overall tone is reflective and earnest, effectively conveying the writer's journey of learning and adaptation."
+      ],
+      "rewrite": "Assignment 1 has been quite challenging for me, as I am not very experienced in writing research papers. When the assignment was first released, I felt rather clueless and overwhelmed. To gain a better understanding of what was expected, I immediately reflected on what I had learned in class. I also asked some of my friends about research. I learned a great deal through this assignment, particularly how to find sources. To assist with this process, I utilized AI to identify relevant sources for my research. Additionally, I learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "86687d9d-7b16-4ce0-af85-43fed73b7bae",
+    "timestamp": "2026-06-03T14:33:51.811021",
+    "mode": "full",
+    "result": {
+      "grammar": [],
+      "spelling": [],
+      "structure": [],
+      "tone": [],
+      "rewrite": ""
+    }
+  },
+  {
+    "id": "16c07c56-a086-4a30-b454-1157a282278c",
+    "timestamp": "2026-06-03T14:33:05.526370",
+    "mode": "full",
+    "result": {
+      "grammar": [],
+      "spelling": [],
+      "structure": [],
+      "tone": [],
+      "rewrite": ""
+    }
+  },
+  {
+    "id": "03480fee-be22-4f42-b5e8-6de52dfc4733",
+    "timestamp": "2026-06-03T14:32:24.872693",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The contraction \"I'm\" should be expanded to \"I am\".",
+        "The phrase \"Assignment1 is pretty tough for me\" uses informal language (\"pretty tough,\" \"for me\"). For academic publishing, it would be more appropriate to state the difficulty objectively.",
+        "The phrase \"I was clueless and very overwhelmed\" could be more formally stated.",
+        "The phrase \"I will have a clue\" is informal.",
+        "\"i\" should be capitalized to \"I\".",
+        "The phrase \"what i do is to use ai\" is informal and should be rephrased.",
+        "\"ai\" should be capitalized to \"AI\" (Artificial Intelligence).",
+        "The phrase \"as my assistance\" is slightly redundant."
+      ],
+      "spelling": [],
+      "structure": [
+        "The flow of the sentences could be improved for better coherence. The paragraph jumps from reflecting on class to asking friends, then to learning about AI, and then back to learning how to read research papers. It would be beneficial to organize these points more logically.",
+        "The repetition of \"I learned\" could be reduced by combining sentences or using more varied sentence structures.",
+        "The introduction is very personal and subjective. While it describes the author's experience, an academic context might benefit from a more objective framing of challenges and learning."
+      ],
+      "tone": [
+        "The tone is informal and personal, using phrases like \"pretty tough for me,\" \"clueless,\" and \"very overwhelmed.\"",
+        "The tone is reflective of a student's personal experience, which is appropriate for a personal reflection, but less so for a formal academic publication.",
+        "The use of contractions (\"I'm\") contributes to the informal tone."
+      ],
+      "rewrite": "Assignment 1 presented a significant challenge due to a lack of prior experience in writing research papers. Upon the release of the assignment, the author experienced initial confusion and a sense of being overwhelmed. To address this, the author reflected on the content covered in class to gain clarity regarding the requirements of a research paper. Additionally, discussions were held with peers regarding research methodologies. This assignment facilitated a substantial learning experience, encompassing the development of skills in source identification and the utilization of Artificial Intelligence (AI) as a tool for sourcing research materials. Furthermore, the author acquired proficiency in reading and analyzing other research papers."
+    }
+  },
+  {
+    "id": "448810a0-bb34-4865-86d2-83cec1b9da6b",
+    "timestamp": "2026-06-03T14:29:58.641103",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1 is pretty tough for me.\" - \"Assignment1\" should be treated as a proper noun and capitalized consistently.",
+        "\"I'm not really experienced\" - Contraction should be expanded to \"I am not.\"",
+        "\"The day the assignment was released I was clueless and very overwhelmed,\" - Comma splice. This sentence requires restructuring or separation.",
+        "\"I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" - \"Reflected back\" is redundant; \"reflected on\" is sufficient. \"So that I will have a clue\" is informal.",
+        "\"I also ask some of my friends about research.\" - Verb tense inconsistency. The preceding sentence uses past tense (\"was released\"), implying this should also be past tense (\"asked\").",
+        "\"So what I do is to use ai as my assistance to find sources for my research.\" - \"So what I do is\" is informal and conversational. \"ai\" should be capitalized as \"AI\" when referring to artificial intelligence. \"as my assistance\" is slightly awkward phrasing.",
+        "\"I also learn how to read and analyse other research papers.\" - Verb tense inconsistency. Should be past tense (\"learned\")."
+      ],
+      "spelling": [
+        "\"analyse\" - This is a valid British English spelling, but for consistency in an academic context, American English (\"analyze\") is often preferred. Given the target of academic publishing, consistency is key."
+      ],
+      "structure": [
+        "The flow of the text could be improved by more clearly delineating the chronological progression of the author's experience and learning.",
+        "The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is\" is a run-on sentence and could be broken down for clarity.",
+        "The repeated use of \"I learned\" can be consolidated or varied to enhance readability."
+      ],
+      "tone": [
+        "The tone is informal and conversational, using phrases like \"pretty tough for me,\" \"clueless,\" \"very overwhelmed,\" and \"have a clue.\" This is not suitable for academic publishing.",
+        "The personal perspective (\"for me,\" \"I was\") is acceptable in a reflective piece, but the language needs to be elevated to a formal, objective academic standard."
+      ],
+      "rewrite": "Assignment 1 presented a significant challenge. The author acknowledges a lack of prior experience in writing research papers. Upon the assignment's release, the author felt unprepared and overwhelmed. Consequently, the author reflected on in-class material to gain an understanding of the research paper's requirements. The author also consulted peers for insights into research methodologies. This assignment facilitated substantial learning, including the identification of relevant sources. To aid in source discovery, the author utilized artificial intelligence (AI) as a resource. Furthermore, the author developed skills in reading and analyzing other research papers."
+    }
+  },
+  {
+    "id": "b1c6b3d6-dc4c-4abf-b171-ef3bea7e76b3",
+    "timestamp": "2026-06-03T14:29:24.080123",
+    "mode": "full",
+    "result": {
+      "grammar": [],
+      "spelling": [],
+      "structure": [],
+      "tone": [],
+      "rewrite": ""
+    }
+  },
+  {
+    "id": "654fda8b-af34-4be1-9593-73dc6ea84a96",
+    "timestamp": "2026-06-03T14:14:37.640614",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1 is\" should be \"Assignment 1 is\"",
+        "\"I'm not really experienced in writing a research paper.\" - This sentence is grammatically correct but could be more concise.",
+        "\"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" - This sentence contains a comma splice and an awkward phrasing.",
+        "\"I also ask some of my friends about research.\" - This should be in the past tense to match the rest of the paragraph.",
+        "\"So what i do is to use ai as my assistance to find sources for my research.\" - \"i\" should be capitalized, and \"ai\" should be capitalized if it refers to Artificial Intelligence. The phrasing \"as my assistance\" is also slightly awkward.",
+        "\"I also learn how to read and analyse other research papers.\" - This should be in the past tense."
+      ],
+      "spelling": [],
+      "structure": [
+        "The paragraph jumps between past and present tense. Consistent tense would improve flow.",
+        "The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" could be broken down or rephrased for better clarity."
+      ],
+      "tone": [
+        "The tone is informal and personal, which is appropriate for a reflection piece."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I directly reflected back on what I learned in class so that I would have a clue of what the research paper is. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. So, what I do is to use AI$ as my assistance to find sources for my research. I also learned$ how to read and analyze$ other research papers."
+    }
+  },
+  {
+    "id": "e51bb4e0-9d21-4f9d-8ea3-176e0055e29f",
+    "timestamp": "2026-06-03T14:12:20.696110",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\" or \"Assignment One\" (depending on intended capitalization). Corrected to \"Assignment 1\" for clarity.",
+        "\"what I learned in class so that I will have a clue of what the research paper is\" is grammatically awkward. Corrected to \"what I learned in class to have a better understanding of the research paper.\"",
+        "\"ask some of my friends about research\" is grammatically correct but could be more precise. Corrected to \"asked some of my friends about research.\"",
+        "\"So what i do is to use ai as my assistance\" is grammatically incorrect and uses informal language. Corrected to \"Therefore, I chose to use AI as my assistant.\"",
+        "\"ai\" should be capitalized if referring to Artificial Intelligence. Corrected to \"AI\".",
+        "\"I also learn how to read and analyse other research papers.\" should be in the past tense to align with the rest of the paragraph. Corrected to \"I also learned how to read and analyse other research papers.\""
+      ],
+      "spelling": [],
+      "structure": [
+        "The flow of the text is generally good, moving from the initial difficulty to the steps taken and the learning outcomes.",
+        "The sentence \"So what i do is to use ai as my assistance to find sources for my research.\" could be integrated more smoothly into the previous sentence or rephrased for better flow.",
+        "The use of \"I also\" is repeated, which could be varied for better stylistic variation."
+      ],
+      "tone": [
+        "The tone is informal and personal, which is appropriate for a reflection on an assignment.",
+        "The tone conveys honesty about the challenges faced and the learning process."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I directly reflected back on what I learned in class to have a better understanding of the research paper. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. Therefore, I chose to use AI as my assistant to find sources for my research. I also learned how to read and analyse other research papers."
+    }
+  },
+  {
+    "id": "0fc03397-53df-4229-aa55-8676d58f126b",
+    "timestamp": "2026-06-03T14:07:31.958842",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\"",
+        "\"I'm not really experienced\" should be \"I am not really experienced\"",
+        "\"overwhelmed, I directly\" should be \"overwhelmed. I directly\"",
+        "\"what I learned in class so that I will have a clue of what the research paper is.\" should be \"what I learned in class so that I would have a clue of what the research paper is.\"",
+        "\"I also ask some of my friends about research.\" should be \"I also asked some of my friends about research.\"",
+        "\"I learned how to find a source.\" should be \"I learned how to find sources.\"",
+        "\"So what i do is to use ai as my assistance to find sources for my research.\" should be \"So, what I do is to use AI as my assistance to find sources for my research.\"",
+        "\"I also learn how to read and analyse other research papers.\" should be \"I also learned how to read and analyze other research papers.\""
+      ],
+      "spelling": [
+        "\"analise\" should be \"analyze\""
+      ],
+      "structure": [
+        "The transition between sentences could be smoother. For example, \"The day the assignment was released I was clueless and very overwhelmed\" could be integrated better with the following sentence.",
+        "The phrase \"So what i do is to use ai as my assistance\" is a bit clunky."
+      ],
+      "tone": [
+        "The tone is informal and conversational, which is appropriate for a personal reflection.",
+        "The use of \"pretty tough\" and \"clueless\" conveys a sense of vulnerability."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I am not really experienced$ in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I directly reflected back on what I learned in class so that I would have a clue of what the research paper is. I also asked$ some of my friends about research. I learned a lot on this assignment. I learned how to find sources$. So, what I do is to use AI$ as my assistance to find sources for my research. I also learned$ how to read and analyze$ other research papers."
+    }
+  },
+  {
+    "id": "b116d096-0fd7-4898-bee6-81146a991078",
+    "timestamp": "2026-06-03T13:54:07.610039",
+    "mode": "grammar",
+    "result": {
+      "grammar": [
+        "This are$ a bad grammar example."
+      ],
+      "spelling": [],
+      "structure": [],
+      "tone": [],
+      "rewrite": "This is$ a bad grammar example."
+    }
+  },
+  {
+    "id": "50a6b40b-e268-4ed5-846a-ced638b7e9bb",
+    "timestamp": "2026-06-03T13:47:38.272063",
+    "mode": "grammar",
+    "result": {
+      "grammar": [
+        "\"This are\" should be \"This is\" or \"These are\"."
+      ],
+      "spelling": [],
+      "structure": [],
+      "tone": [
+        "The tone is informal and direct."
+      ],
+      "rewrite": "This is$ a bad grammar."
+    }
+  },
+  {
+    "id": "4175665d-da0f-45e8-89e2-d9dd9987fa3b",
+    "timestamp": "2026-06-03T13:43:55.641258",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\"",
+        "\"I'm\" should be \"I am\"",
+        "\"I directly reflected back\" should be \"I reflected\"",
+        "\"so that I will have a clue of what the research paper is\" should be \"to understand what the research paper is\"",
+        "\"I also ask\" should be \"I also asked\"",
+        "\"What i do is to use ai as my assistance to find sources for my research\" should be \"What I did was to use AI as an assistant to find sources for my research\"",
+        "\"I also learn\" should be \"I also learned\""
+      ],
+      "spelling": [
+        "\"ai\" should be \"AI\""
+      ],
+      "structure": [
+        "The use of \"I directly reflected back\" is a bit redundant; \"I reflected\" conveys the same meaning more concisely.",
+        "The sentence \"So what i do is to use ai as my assistance to find sources for my research\" could be more smoothly integrated.",
+        "The transition between learning to find sources and learning to read/analyze other papers could be clearer."
+      ],
+      "tone": [
+        "The tone is personal and reflective, which is appropriate for discussing a learning experience.",
+        "The tone shifts slightly between past tense (\"was released,\" \"was clueless\") and present tense (\"is,\" \"ask,\" \"do,\" \"learn\"). Consistency in tense would improve flow."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I am not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I reflected on what I learned in class to understand what the research paper is. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. What I did was to use AI as an assistant to find sources for my research. I also learned how to read and analyse other research papers."
+    }
+  },
+  {
+    "id": "262a8b6c-ffed-4c76-8696-40338851877e",
+    "timestamp": "2026-06-03T13:43:10.591434",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\".",
+        "\"i\" should be \"I\" when referring to oneself.",
+        "\"ai\" should be \"AI\" as it is an acronym.",
+        "\"So what i do is to use ai as my assistance to find sources for my research.\" is grammatically awkward and could be phrased more smoothly."
+      ],
+      "spelling": [],
+      "structure": [
+        "The repetition of \"I learned\" could be consolidated for better flow.",
+        "The sentence \"So what i do is to use ai as my assistance to find sources for my research.\" feels a bit clunky and could be integrated more smoothly into the narrative of learning."
+      ],
+      "tone": [
+        "The tone is personal and reflective, conveying a sense of challenge and learning."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I directly reflected back on what I learned in class so that I will have a clue of what the research paper is. I also asked some of my friends about research. I learned a lot on this assignment, including how to find a source. To assist me in my research, I used AI to find sources. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "a36f92df-fe4e-48b0-a20c-b0047682a830",
+    "timestamp": "2026-06-03T13:37:33.385374",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1 is pretty tough for me.\" should be \"Assignment 1 is pretty tough for me.\"",
+        "\"I directly reflected back on what I learned in class\" should be \"I reflected directly on what I learned in class\"",
+        "\"so that I will have a clue of what the research paper is.\" should be \"to understand what the research paper entails.\"",
+        "\"I also ask some of my friends about research.\" should be \"I also asked some of my friends about research.\"",
+        "\"So what I do is to use ai as my assistance to find sources for my research.\" should be \"Therefore, I used AI as an assistant to find sources for my research.\"",
+        "\"I also learn how to read and analyse other research papers.\" should be \"I also learned how to read and analyze other research papers.\""
+      ],
+      "spelling": [],
+      "structure": [],
+      "tone": [],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I reflected directly on what I learned in class to understand what the research paper entails. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. Therefore, I used AI as an assistant to find sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "2709a19b-1f6a-4da8-9922-c57fb8b85643",
+    "timestamp": "2026-06-03T13:35:28.869074",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1 is pretty tough for me.\" - It is unclear if \"Assignment1\" refers to a specific assignment that should be capitalized or if it is a general statement about the first assignment. If it is a specific assignment, it should be capitalized. If it is a general statement, then \"Assignment 1\" is more appropriate. For the rewrite, I will assume it refers to a specific assignment and capitalize it.",
+        "\"The day the assignment was released I was clueless and very overwhelmed,\" - Missing comma after \"released\".",
+        "\"I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" - \"Reflected back\" is redundant; \"reflected\" is sufficient. \"So that I will have a clue\" could be more concise and active.",
+        "\"I also ask some of my friends about research.\" - This sentence is in the present tense, while the rest of the paragraph is in the past tense. It should be \"I also asked\".",
+        "\"So what i do is to use ai as my assistance to find sources for my research.\" - \"i\" should be capitalized. \"AI\" should be capitalized. \"as my assistance\" can be more concisely phrased.",
+        "\"I also learn how to read and analyse other research papers.\" - This sentence is in the present tense, while the rest of the paragraph is in the past tense. It should be \"I also learned\". \"analyse\" is the British spelling; \"analyze\" is the American spelling. For consistency, I will use the American spelling."
+      ],
+      "spelling": [],
+      "structure": [
+        "The paragraph jumps between past and present tense, making it slightly disjointed.",
+        "The sentence \"So what i do is to use ai as my assistance to find sources for my research\" could be integrated more smoothly."
+      ],
+      "tone": [
+        "The tone is informal and reflective, which is appropriate for a personal account of completing an assignment."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I reflected on what I learned in class so that I would have a clue about what the research paper is. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. So, I used AI as my assistance to find sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "7cc865ab-c598-4355-9bba-a6f0f113ce79",
+    "timestamp": "2026-06-02T22:51:52.906479",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1 is pretty tough for me.\" should be \"Assignment 1 is pretty tough for me.\"",
+        "\"I'm not really experienced in writing a research paper.\" is grammatically correct, but could be rephrased for better flow.",
+        "\"The day the assignment was released I was clueless and very overwhelmed,\" needs a comma after \"released\".",
+        "\"I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" - \"reflected back\" is redundant; \"clue of what the research paper is\" is awkward.",
+        "\"I also ask some of my friends about research.\" should be \"I also asked some of my friends about research.\"",
+        "\"I learned a lot on this assignment.\" is grammatically correct, but \"during this assignment\" or \"from this assignment\" might be more precise.",
+        "\"So what i do is to use ai as my assistance to find sources for my research.\" needs capitalization for \"I\" and \"AI\". \"as my assistance\" is awkward.",
+        "\"I also learn how to read and analyse other research papers.\" should be \"I also learned how to read and analyze other research papers.\""
+      ],
+      "spelling": [],
+      "structure": [
+        "The sentences are somewhat choppy and could benefit from better transitions and sentence combining.",
+        "The shift from past tense (\"was released\", \"reflected\", \"asked\") to present tense (\"is\", \"learn\") in the latter half of the paragraph creates inconsistency."
+      ],
+      "tone": [
+        "The tone is informal and personal, which is appropriate for a reflection."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I directly reflected on what I learned in class so that I would have a better understanding of the research paper. I also asked some of my friends about research. I learned a lot during this assignment. I learned how to find a source. Therefore, I used AI as assistance to find sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "d0ab740a-d20b-423b-bed0-ee9235867f51",
+    "timestamp": "2026-06-02T22:46:07.708866",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\" or \"Assignment One\" for clarity.",
+        "\"I'm\" is a contraction and should be avoided in formal writing, though acceptable in less formal contexts.",
+        "\"reflected back\" is redundant; \"reflected\" is sufficient.",
+        "\"so that I will have a clue of what the research paper is\" could be phrased more concisely.",
+        "\"I also ask some of my friends about research\" should be in the past tense to match the rest of the paragraph.",
+        "\"what i do is to use ai as my assistance\" has a missing capitalization for \"I\" and \"AI\" should be capitalized as it is an acronym.",
+        "\"So what I do is to use AI as my assistance to find sources for my research\" could be more smoothly integrated.",
+        "\"I also learn how to read and analyse other research papers\" should be in the past tense."
+      ],
+      "spelling": [],
+      "structure": [
+        "The opening sentence is a bit abrupt. Consider a more fluid transition.",
+        "The paragraph jumps between past and present tense, which can be confusing. Maintaining a consistent tense is important.",
+        "The sentence \"So what I do is to use AI as my assistance to find sources for my research\" feels slightly tacked on. It could be integrated more smoothly into the preceding or following sentences."
+      ],
+      "tone": [
+        "The tone is informal and conversational. While this can be appropriate for personal reflections, consider the intended audience and context. If this is for an academic assignment, a more formal and objective tone would be preferred.",
+        "The use of \"clueless\" and \"overwhelmed\" conveys a sense of struggle, which is honest but could be balanced with a more proactive or learning-focused framing."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I am not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I reflected on what I learned in class so that I would have a better understanding of what the research paper entails. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. Therefore, I used AI as my assistance to find sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "dae9f4b2-646b-4522-8a18-94a21cec4e2c",
+    "timestamp": "2026-06-02T22:41:16.935246",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"I'm not really experienced in writing a research paper.\" should be \"I am not really experienced in writing a research paper.\" as contractions are generally avoided in formal academic writing.",
+        "\"The day the assignment was released I was clueless...\" is a fragment and should be connected to the previous sentence or rephrased.",
+        "\"I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" is grammatically awkward. \"Reflected back\" is redundant; \"reflected on\" is sufficient. \"so that I will have a clue of what the research paper is\" can be improved.",
+        "\"I also ask some of my friends about research.\" should be \"I also asked some of my friends about research.\" to maintain past tense consistency.",
+        "\"So what i do is to use ai as my assistance to find sources for my research.\" has a few issues: \"i\" should be capitalized to \"I\"; \"ai\" should be capitalized to \"AI\" if referring to Artificial Intelligence as a concept; the phrasing \"what I do is to use AI as my assistance\" can be smoother.",
+        "\"I also learn how to read and analyse other research papers.\" should be \"I also learned how to read and analyse other research papers.\" to maintain past tense consistency."
+      ],
+      "spelling": [],
+      "structure": [
+        "The first sentence and the second sentence (\"The day the assignment was released...\") could be better connected.",
+        "The flow between sentences discussing seeking help from friends and reflecting on class learning could be smoother.",
+        "The sentence \"So what i do is to use ai as my assistance to find sources for my research.\" could be integrated more naturally into the narrative."
+      ],
+      "tone": [
+        "The tone is informal and reflective, which is appropriate for a personal reflection on an assignment. However, the language could be more precise and academic if this were for a formal submission."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I am not really experienced in writing a research paper. On the day the assignment was released, I was clueless and very overwhelmed. I reflected on what I learned in class to gain a better understanding of what the research paper entailed. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. To find sources for my research, I used AI as my assistance. I also learned how to read and analyse other research papers."
+    }
+  },
+  {
+    "id": "b4e9730f-d9e1-4672-a58d-048e0bbeb89b",
+    "timestamp": "2026-06-02T22:40:06.773514",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The sentence is structured as a question followed by a statement. This can be confusing. It would be clearer to separate them or rephrase the statement to be a direct answer to the question.",
+        "\"popup\" should be hyphenated as \"pop-up\" when used as an adjective."
+      ],
+      "spelling": [],
+      "structure": [
+        "The sentence starts with a question and then immediately provides a solution or suggestion as a statement. This can feel abrupt and less cohesive. Consider rephrasing to integrate the statement more smoothly or separating the question and the suggestion."
+      ],
+      "tone": [],
+      "rewrite": "Does this design address your concerns? A single button opening a clean pop-up window with a spacious text area for the prompt should make it much more intuitive to use."
+    }
+  },
+  {
+    "id": "e4dd58ea-87cf-4ffb-b6fb-507a7761fdd8",
+    "timestamp": "2026-06-02T22:20:50.887562",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1 is pretty tough for me.\" should be \"Assignment 1 is pretty tough for me.\"$",
+        "\"The day the assignment was released I was clueless and very overwhelmed,\" should be \"The day the assignment was released, I was clueless and very overwhelmed,\"$",
+        "\"I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" should be \"I directly reflected on what I learned in class so that I would have a clue about the research paper.\"$",
+        "\"I also ask some of my friends about research.\" should be \"I also asked some of my friends about research.\"$",
+        "\"I learned a lot on this assignment.\" should be \"I learned a lot from this assignment.\"$",
+        "\"So what i do is to use ai as my assistance to find sources for my research.\" should be \"So, what I do is to use AI as my assistance to find sources for my research.\"$",
+        "\"I also learn how to read and analyse other research papers.\" should be \"I also learned how to read and analyze other research papers.\"$"
+      ],
+      "spelling": [],
+      "structure": [
+        "Consider separating the student name and ID number onto different lines for better formatting.",
+        "The sentence \"I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" is a bit wordy. It could be condensed.",
+        "The transition between reflecting on past learning and asking friends for help could be smoother.",
+        "The sentence \"So what i do is to use ai as my assistance to find sources for my research.\" could be integrated more seamlessly with the previous sentence about learning from friends."
+      ],
+      "tone": [
+        "The tone is generally informal and reflective, which is appropriate for a personal reflection.",
+        "The use of phrases like \"pretty tough\" and \"clueless and very overwhelmed\" conveys a sense of honest struggle."
+      ],
+      "rewrite": "Darren Melvern\n36385522\n\nAssignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I directly reflected on what I learned in class so that I would have a clue about the research paper. I also asked some of my friends about research. I learned a lot from this assignment. So, what I do is to use AI as my assistance to find sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "f1dc500a-1a28-403d-8c06-c9109e52eea3",
+    "timestamp": "2026-06-02T22:20:49.993463",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1 is pretty tough for me.\" - \"Assignment 1\" should be treated as a proper noun, thus it should have a space.",
+        "\"I'm not really experienced in writing a research paper.\" - The sentence is grammatically correct, but \"I am not\" is preferred in formal writing.",
+        "\"The day the assignment was released I was clueless and very overwhelmed\" - This sentence could be improved by using a comma after \"released\".",
+        "\"I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" - The phrase \"reflected back\" is redundant. \"Reflected\" is sufficient.",
+        "\"I also ask some of my friends about research.\" - The tense of \"ask\" should be past tense to align with the rest of the paragraph.",
+        "\"I learned a lot on this assignment.\" - \"On this assignment\" is grammatically correct, but \"in this assignment\" or \"from this assignment\" might be more idiomatic.",
+        "\"So what i do is to use ai as my assistance to find sources for my research.\" - \"i\" should be capitalized as \"I\". \"ai\" should be capitalized as \"AI\". The phrase \"as my assistance\" is slightly awkward; \"to assist me\" or \"as a tool\" would be smoother.",
+        "\"I also learn how to read and analyse other research papers.\" - The tense of \"learn\" should be past tense to align with the rest of the paragraph."
+      ],
+      "spelling": [],
+      "structure": [
+        "The paragraph jumps between past and present tense inconsistently.",
+        "The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" is quite long and could be broken down for better clarity.",
+        "The transition between reflecting on class and asking friends could be smoother.",
+        "The sentence starting with \"So what i do is...\" could be rephrased for better flow and clarity."
+      ],
+      "tone": [
+        "The tone is informal and personal, which is appropriate for a reflection on an assignment. However, some phrasing could be more formal if this were for an academic submission."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I am not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I reflected on what I learned in class to get a better understanding of the research paper. I also asked some of my friends about research. I learned a lot from this assignment. I learned how to find a source. Therefore, I used AI as a tool to assist me in finding sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "ebaba9b0-4611-4edc-be20-d4de9f67b51e",
+    "timestamp": "2026-06-02T22:20:07.825419",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\" or \"Assignment One\".",
+        "\"I'm not really experienced\" should be \"I am not really experienced\" or \"I'm not very experienced\".",
+        "\"The day the assignment was released I was clueless\" should be \"The day the assignment was released, I was clueless\".",
+        "\"I directly reflected back\" should be \"I immediately reflected\" or \"I thought back\".",
+        "\"so that I will have a clue of what the research paper is\" should be \"to get a clue of what the research paper is\" or \"so I would have a clue about the research paper\".",
+        "\"I also ask some of my friends about research\" should be \"I also asked some of my friends about research\".",
+        "\"So what i do is to use ai as my assistance\" should be \"So, what I do is use AI as my assistant\" or \"Therefore, I use AI as my assistance\".",
+        "\"I also learn how to read and analyse other research papers\" should be \"I also learned how to read and analyze other research papers\"."
+      ],
+      "spelling": [],
+      "structure": [
+        "The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" is a bit long and could be broken down for better flow.",
+        "The phrase \"So what i do is to use ai as my assistance\" is a bit informal and could be phrased more professionally."
+      ],
+      "tone": [
+        "The tone is reflective and honest, which is appropriate for a personal account of a challenging assignment."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I am not very experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I immediately reflected on what I learned in class so I would have a clue about the research paper. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. Therefore, I use AI as my assistance to find sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "4cf415c0-c470-4639-8cc9-537f0a0c975e",
+    "timestamp": "2026-06-02T21:59:25.485704",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The phrase \"a fix is being implemented\" is grammatically correct, but \"a fix is being worked on\" or \"a solution is being implemented\" might flow slightly better depending on context."
+      ],
+      "spelling": [
+        "fix (should be fix)",
+        "implemented (should be implemented)"
+      ],
+      "structure": [
+        "The timestamp \"Jun 2, 06:39 UTC\" appears above the text \"Identified - The issue has been identified and a fix is being implemented.\" This placement is unusual and could be confusing. Typically, timestamps accompany the event they record.",
+        "The \"Investigating\" section includes a timestamp \"Jun 2, 06:04 UTC\" that precedes the \"Identified\" section's timestamp \"Jun 2, 06:39 UTC.\" This chronological inconsistency needs correction.",
+        "The main issue title \"Degraded performance for Claude Sonnet 4.6\" should ideally be placed directly above the resolution or investigation updates related to it."
+      ],
+      "tone": [
+        "The tone is informative and professional, typical of a status update.",
+        "The use of bolding for status indicators (Identified, Investigating, Resolved) is effective."
+      ],
+      "rewrite": "Jun 1, 2026\nDegraded performance for Claude Sonnet 4.6\n\nJun 1, 19:06 UTC\nResolved - This issue has been resolved.\n\nJun 2, 06:04 UTC\nInvestigating - We are currently investigating this issue.\n\nJun 2, 06:39 UTC\nIdentified - The issue has been identified and a fix is being implemented."
+    }
+  },
+  {
+    "id": "4dcbbb75-a363-453e-a53f-4368b76847ee",
+    "timestamp": "2026-06-02T21:59:15.078923",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The sentence \"The issue has been identified and a fix is being implemented.\" is grammatically correct but could be more concise.",
+        "\"We are investigating elevated errors on requests to Claude Sonnet 4.6 soon as possible.\" is grammatically awkward. The placement of \"soon as possible\" is incorrect."
+      ],
+      "spelling": [],
+      "structure": [
+        "The dates are presented as standalone headings, which is clear.",
+        "The status updates (\"Investigating\", \"Resolved\") are well-defined.",
+        "The text \"The issue has been identified and a fix is being implemented.\" appears as a status update without a preceding status label or date, making its context slightly unclear.",
+        "The second \"Investigating\" update for \"Degraded performance for Claude Sonnet 4.6\" is followed by a sentence that seems incomplete or awkwardly phrased, \"We are investigating elevated errors on requests to Claude Sonnet soon as possible.\" It would benefit from clearer separation of the issue and the action."
+      ],
+      "tone": [
+        "The tone is professional, informative, and direct, which is appropriate for a status update.",
+        "The use of \"Investigating\" and \"Resolved\" clearly communicates the state of the issues."
+      ],
+      "rewrite": "The issue has been identified and a fix is being implemented.\nJun 2, 06:39 UTC\n\nInvestigating - We are currently investigating this issue.\nJun 2, 06:04 UTC\n\nJun 1, 2026\n\nDegraded performance for Claude Sonnet 4.6\nResolved - This issue has been resolved.\nJun 1, 19:06 UTC\n\nInvestigating - We are investigating elevated errors on requests to Claude Sonnet. We will resolve this as soon as possible.\nJun 1, 18:28 UTC"
+    }
+  },
+  {
+    "id": "238e0389-dc59-46af-b892-8df8af0662f6",
+    "timestamp": "2026-06-02T21:58:53.127295",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The order of events is confusing, as the \"Resolved\" status appears before the \"Investigating\" status, which implies the issue was resolved before it was even being investigated."
+      ],
+      "spelling": [],
+      "structure": [
+        "The chronological order of updates should be maintained. The \"Investigating\" update should appear before the \"Resolved\" update.",
+        "Consider adding a brief description of the issue under the main title for clarity."
+      ],
+      "tone": [],
+      "rewrite": "Jun 1, 2026\n\nDegraded performance for Claude Sonnet 4.6\n\nInvestigating - We are investigating elevated errors on requests to Claude Sonnet 4.6. We will provide an update as soon as possible.\nJun 1, 18:28 UTC\n\nResolved - This issue has been resolved.\nJun 1, 19:06 UTC"
+    }
+  },
+  {
+    "id": "0e5dff76-1222-4549-bfaa-ba987684079a",
+    "timestamp": "2026-06-02T12:27:04.624418",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"My company was founded in 2018 and have been operating\" - the subject \"company\" is singular, so the verb should be singular: \"has been operating.\"",
+        "\"more than fifty staffs\" - \"staffs\" is not typically used as a plural noun; \"staff\" is usually used for both singular and plural.",
+        "\"Our annual revenue have grown\" - \"revenue\" is a singular noun, so the verb should be singular: \"has grown.\""
+      ],
+      "spelling": [
+        "\"compny\" should be \"company.\"",
+        "\"departements\" should be \"departments.\"",
+        "\"anual\" should be \"annual.\"",
+        "\"quater\" should be \"quarter.\"",
+        "\"signifcanly\" should be \"significantly.\""
+      ],
+      "structure": [],
+      "tone": [],
+      "rewrite": "My company was founded in 2018 and has been operating for the past six years. We currently employ more than fifty staff across three different departments. Our annual revenue has grown significantly since the last quarter of 2022."
+    }
+  },
+  {
+    "id": "329f04ea-57bf-4e60-afa1-0600b0f846ac",
+    "timestamp": "2026-06-01T13:24:24.028805",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"and have been operating\" should be \"and has been operating\" to agree with the singular subject \"My company.\"",
+        "\"fifty staffs\" should be \"fifty staff members\" or \"fifty employees.\" \"Staffs\" is not standard English.",
+        "\"Our anual revenue have grown\" should be \"Our annual revenue has grown.\" \"Revenue\" is typically treated as a singular, uncountable noun, and \"has grown\" agrees with it. Alternatively, if referring to individual revenue streams, \"revenues have grown\" could be used, but given the context of a company's overall performance, the singular is more appropriate.",
+        "\"the last quater of 2022\" should be \"the last quarter of 2022.\""
+      ],
+      "spelling": [
+        "\"compeny\" should be \"company.\"",
+        "\"anual\" should be \"annual.\"",
+        "\"quater\" should be \"quarter.\""
+      ],
+      "structure": [
+        "The flow is generally good, presenting information chronologically and thematically.",
+        "Consider rephrasing \"the passed six years\" to \"the past six years\" for more natural phrasing."
+      ],
+      "tone": [
+        "The tone is informative and professional, suitable for describing a company's history and performance."
+      ],
+      "rewrite": "My company was founded in 2018 and has been operating for the past six years. We currently employ more than fifty staff members across three different departments. Our annual revenue has grown significantly since the last quarter of 2022."
+    }
+  },
+  {
+    "id": "e8fc18c7-d3bd-4a27-9d3c-0b59a63c4c70",
+    "timestamp": "2026-06-01T13:24:22.698293",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"I want to test the middle one, only, as a searh func\" is grammatically awkward. The placement of \"only\" is unusual, and \"searh\" is a misspelling.",
+        "\"me a pharagraph to test\" is incomplete and lacks proper sentence structure.",
+        "\"Devised test paragraph for region selection verification\" functions as a title or heading, which is grammatically acceptable in that context, but as part of the text flow, it might feel slightly abrupt.",
+        "\"Here's a test setup with 3 clearly separated paragraphs. Put them all on screen, then select only the middle one with renScan.\" is grammatically correct.",
+        "\"If the result only mentions errors from the middle paragraph – the region capture is working correctly.\" has a slight issue with the dash; it could be a comma or a semicolon depending on the intended nuance, but as is, it's understandable."
+      ],
+      "spelling": [
+        "\"sear\" should be \"search\".",
+        "\"pharagraph\" should be \"paragraph\"."
+      ],
+      "structure": [
+        "The flow between the initial request (\"I want to test...\") and the provided text (\"Here's a test setup...\") is a bit disjointed. It feels like a prompt followed by a response, but they are presented as if they are part of the same continuous thought.",
+        "The sentence \"I want to test the middle one, only, as a searh func\" is a fragment and doesn't connect smoothly to the subsequent text.",
+        "The line \"me a pharagraph to test\" is also a fragment and unclear in its intent without context.",
+        "The heading \"Devised test paragraph for region selection verification\" is well-placed to introduce the following paragraph."
+      ],
+      "tone": [
+        "The tone is generally neutral and instructional.",
+        "The use of phrases like \"me a pharagraph to test\" and \"Here's a test setup\" suggests an informal, conversational tone, which is appropriate for a chat interface.",
+        "The instructional tone is clear in the second paragraph, guiding the user on how to perform the test."
+      ],
+      "rewrite": "I want to test the middle one as a search function. Please provide a paragraph to test.\n\nHere is a test setup with 3 clearly separated paragraphs. Put them all on screen, then select only the middle one with renScan. If the result only mentions errors from the middle paragraph, the region capture is working correctly."
+    }
+  },
+  {
+    "id": "c5e39f57-b8d1-40d1-8561-eb455fb142ec",
+    "timestamp": "2026-06-01T13:24:10.830731",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The phrase \"me a paragraph to test\" is grammatically incomplete and should be rephrased."
+      ],
+      "spelling": [],
+      "structure": [
+        "The introductory sentence \"me a paragraph to test\" feels abrupt and lacks context. It would benefit from a more formal and descriptive lead-in.",
+        "The phrase \"with renScan\" is unclear and may require additional explanation or clarification of what \"renScan\" refers to.",
+        "The use of bolding for paragraph titles is effective for organization."
+      ],
+      "tone": [
+        "The overall tone is instructional and technical, which is appropriate for the context of a test setup.",
+        "The phrase \"me a paragraph to test\" has a casual and informal tone that contrasts with the rest of the text."
+      ],
+      "rewrite": "Here is a test paragraph designed for region selection testing. This setup features three clearly separated paragraphs, allowing for the selection of only the middle one using renScan.\n\n**Paragraph A — Top (no errors, clean)**\nThe quick brown fox jumps over the lazy dog. This sentence is commonly used for font tests since the nineteenth century.\n\n**Paragraph B — Middle (scan this one)**\nMy company was founded in 2018 and has been growing steadily since then. We specialize in innovative solutions for our clients."
+    }
+  },
+  {
+    "id": "00f64690-d66d-42ce-997f-14ee04725e49",
+    "timestamp": "2026-06-01T13:24:10.553709",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The phrase \"me a pharagraph to test\" is grammatically incomplete and informal. It should be a complete sentence.",
+        "\"Put them all on screen, select only the middle one with renScan.\" - The sentence structure is a bit abrupt. It could be smoother.",
+        "\"If the result only mentions errors from middle paragraph — the region capture is working correctly.\" - The punctuation is a bit awkward. The em dash might be better replaced with a colon or period for clarity depending on the intended emphasis.",
+        "\"My compeny was founded in 2018 and have been operating for the passed six years.\" - \"have been operating\" should be \"has been operating\" to agree with \"My company\". \"passed\" should be \"past\".",
+        "\"currently employ more than fifty staffs across three diferent departements.\" - \"staffs\" should be \"staff\". \"diferent\" is misspelled. \"departements\" is misspelled.",
+        "\"Our revenue have grown significantly since the last quater of 2022.\" - \"have grown\" should be \"has grown\" to agree with \"Our revenue\". \"quater\" is misspelled."
+      ],
+      "spelling": [
+        "pharagraph (should be paragraph)",
+        "compeny (should be company)",
+        "passed (should be past)",
+        "diferent (should be different)",
+        "departements (should be departments)",
+        "quater (should be quarter)"
+      ],
+      "structure": [
+        "The instruction \"Put them all on screen, select only the middle one with renScan.\" could be clearer in its relationship to the following sentence.",
+        "The transition between the introductory sentence and the listing of paragraphs is clear.",
+        "The labeling of paragraphs (A, B, etc.) with their descriptions is effective."
+      ],
+      "tone": [
+        "The overall tone is instructional and informative.",
+        "The use of bolding and italics helps to emphasize key instructions.",
+        "The phrase \"me a pharagraph to test\" is very informal and conversational, which may or may not be appropriate for the context."
+      ],
+      "rewrite": "Here's a test setup with 3 clearly separated paragraphs. Put all of them on screen and select only the middle one with renScan. If the result only mentions errors from the middle paragraph, then the region capture is working correctly.\n\n**Paragraph A — Top (no errors, clean)**\nThe quick brown fox jumps over the lazy dog. This sentence contains every letter of the alphabet and is commonly used for font testing purposes. It has been a standard test since the nineteenth century.\n\n**Paragraph B — Middle (scan this one)**\nMy company was founded in 2018 and has been operating for the past six years. We currently employ more than fifty staff across three different departments. Our revenue has grown significantly since the last quarter of 2022."
+    }
+  },
+  {
+    "id": "acedba16-1a63-4016-9761-628ca87a126e",
+    "timestamp": "2026-06-01T13:23:19.014806",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"My company was founded in 2018 and have been operating...\" - The verb \"have been operating\" does not agree with the singular subject \"My company.\" It should be \"has been operating.\"",
+        "\"We currently employ more than fifty staffs...\" - \"Staffs\" is not the correct plural form; it should be \"staff.\"",
+        "\"Our anual revenue have grown...\" - The verb \"have grown\" does not agree with the singular subject \"revenue.\" It should be \"has grown.\""
+      ],
+      "spelling": [
+        "\"compenty\" should be \"company\"",
+        "\"anual\" should be \"annual\"",
+        "\"diferent\" should be \"different\"",
+        "\"departements\" should be \"departments\"",
+        "\"quater\" should be \"quarter\""
+      ],
+      "structure": [],
+      "tone": [],
+      "rewrite": "My company was founded in 2018 and has been operating for the past six years. We currently employ more than fifty staff across three different departments. Our annual revenue has grown significantly since the last quarter of 2022."
+    }
+  },
+  {
+    "id": "48ab4035-08b4-4e3a-b374-69cfc8e88acc",
+    "timestamp": "2026-06-01T11:56:52.838590",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"My company\" should be used instead of \"My compeny\".",
+        "\"have been operating\" is correct but can be slightly rephrased for better flow.",
+        "\"fifty staff\" is more common than \"fifty staffs\" when referring to employees as a collective.",
+        "\"Our annual revenue\" should be singular in subject-verb agreement. \"Our annual revenue has grown\" is correct.",
+        "\"the last quarter\" is more common than \"the last quater\"."
+      ],
+      "spelling": [
+        "compeny (company)",
+        "departements (departments)",
+        "anual (annual)",
+        "quater (quarter)"
+      ],
+      "structure": [
+        "The sentence \"My company was founded in 2018 and have been operating for the passed six years\" could be split or rephrased for conciseness.",
+        "The flow from company founding to current operations, staff, and revenue is logical."
+      ],
+      "tone": [
+        "The tone is informative and professional, suitable for business communication."
+      ],
+      "rewrite": "My company was founded in 2018 and has been operating for six years. We currently employ more than fifty staff across three different departments. Our annual revenue has grown significantly since the last quarter of 2022."
+    }
+  },
+  {
+    "id": "82445ae8-e086-4e4c-a468-e61bf804116a",
+    "timestamp": "2026-06-01T11:56:19.658052",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The sentence \"This sentence contains every letter of the alphabet and is commonly used for font testing purposes\" is a statement of fact. However, to make it flow better, it could be rephrased to connect more directly to the preceding sentence."
+      ],
+      "spelling": [],
+      "structure": [
+        "The text is a series of factual statements about the pangram \"The quick brown fox jumps over the lazy dog.\" While factually accurate, the flow could be improved by combining or rephrasing sentences for a more cohesive narrative.",
+        "The second sentence, \"This sentence contains every letter of the alphabet and is commonly used for font testing purposes,\" could be better integrated with the first sentence."
+      ],
+      "tone": [
+        "The tone is purely informative and objective. It presents facts about the sentence without any subjective commentary.",
+        "The tone is neutral and educational."
+      ],
+      "rewrite": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the alphabet and has been a standard typing test for font testing purposes since the nineteenth century."
+    }
+  },
+  {
+    "id": "d47b6e2f-cca8-4ccd-9456-90d33dcca66a",
+    "timestamp": "2026-06-01T11:55:21.906258",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The sentence \"This sentence contains every letter of the alphabet and is commonly used for font testing purposes.\" is grammatically correct. However, the subsequent sentence, \"It has been a standard typing test since the nineteenth century,\" could be more smoothly integrated with the preceding one."
+      ],
+      "spelling": [],
+      "structure": [
+        "Combine the second and third sentences for better flow. The current structure presents a statement about the sentence, followed by its purpose, and then its historical usage as separate points. Merging them would create a more cohesive description."
+      ],
+      "tone": [],
+      "rewrite": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the alphabet and is commonly used for font testing purposes. It has been a standard typing test since the nineteenth century."
+    }
+  },
+  {
+    "id": "cf02c28f-05be-4737-af09-e683a5c96e7c",
+    "timestamp": "2026-06-01T11:54:16.570615",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The word \"ha\" at the end of the third sentence is an incomplete word. It should likely be \"has\"."
+      ],
+      "spelling": [
+        "\"pharagraph\" should be \"paragraph\"."
+      ],
+      "structure": [
+        "The text jumps between describing the sentence and a quote about it. It would be clearer to separate these.",
+        "The quote is presented with a bullet point and quotation marks, but its relation to the main text isn't explicitly defined (e.g., is it a user request, a spoken line, etc.)."
+      ],
+      "tone": [
+        "The tone of the main text is informative and factual.",
+        "The tone of the quoted text is informal and conversational."
+      ],
+      "rewrite": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the alphabet and is commonly used for font testing purposes. It has been used for tests since the nineteenth century.\n\n\"Me a pharagraph to test.\""
+    }
+  },
+  {
+    "id": "c15970d5-ef07-422c-a307-e4727ef26944",
+    "timestamp": "2026-06-01T11:54:09.466381",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"a scan od grid\" should be \"a scanned grid\" or \"a grid scan\".",
+        "\"i choose\" should be \"I chose\" or \"I choose\" (depending on context, but \"chose\" is more likely for a past action).",
+        "\"me a pharagraph to test\" should be \"me a paragraph to test\" or \"a paragraph for me to test\".",
+        "\"My compeny\" should be \"My company\".",
+        "\"fifty staffs\" should be \"fifty staff members\" or \"fifty staff\".",
+        "\"three diferent departements\" should be \"three different departments\".",
+        "\"since the last quater of 2022\" should be \"since the last quarter of 2022\"."
+      ],
+      "spelling": [
+        "od (likely meant \"scanned\" or \"scan of a\")",
+        "pharagraph (meant \"paragraph\")",
+        "compeny (meant \"company\")",
+        "diferent (meant \"different\")",
+        "departements (meant \"departments\")",
+        "quater (meant \"quarter\")"
+      ],
+      "structure": [
+        "The initial user request is phrased as a spoken thought rather than a clear instruction. It could be more direct.",
+        "The \"Devised test paragraph\" section could be made more concise by directly presenting the test case rather than explaining the setup in a separate paragraph."
+      ],
+      "tone": [
+        "The initial user request (\"i want to test if the website will only do a scan od grid that i choose, me a pharagraph to test\") is informal and conversational, which is appropriate for an interaction with an AI assistant but could be more formal if this were a report or technical documentation.",
+        "The subsequent text, particularly the paragraph descriptions, shifts to a more instructional and technical tone."
+      ],
+      "rewrite": "I want to test if the website will perform a scan of a chosen grid and identify errors within a paragraph for testing.\n\n**Devised test paragraph for region selection verification**\n\nHere's a test setup with 3 clearly separated paragraphs. Put them all on screen; if the result only mentions errors from the middle paragraph, the region capture is working correctly.\n\n**Paragraph A – Top (no errors, clean)**\nThe quick brown fox jumps over the lazy dog. This sentence contains every letter of the alphabet and is commonly used for font testing purposes. It has been a standard type test since the nineteenth century.\n\n**Paragraph B – Middle (scan this one)**\nMy company was founded in 2018 and has been operating for the past six years. We currently employ more than fifty staff across three different departments. Our annual revenue has grown significantly since the last quarter of 2022.\n\n**Paragraph C – Bottom (no errors, clean)**\nThe quick brown fox jumps over the lazy dog. This sentence contains every letter of the alphabet and is commonly used for font testing purposes. It has been a standard type test since the nineteenth century."
+    }
+  },
+  {
+    "id": "e9b0f864-71eb-4ee5-8641-88c922b96b79",
+    "timestamp": "2026-06-01T11:53:42.686508",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The sentence \"She was not only talented but also a gifted artist\" uses the construction \"not only... but also\" correctly.",
+        "The comma before \"but also\" is correct as it separates two independent clauses."
+      ],
+      "spelling": [],
+      "structure": [
+        "The sentence is a well-formed complex sentence.",
+        "The phrase \"talented but also a gifted artist\" is a strong and clear description."
+      ],
+      "tone": [
+        "The tone is appreciative and admiring, highlighting the subject's positive qualities.",
+        "It conveys a sense of respect for the individual's abilities."
+      ],
+      "rewrite": "She was not only talented but also a gifted artist."
+    }
+  },
+  {
+    "id": "10ae777e-1fc0-4e63-a649-79f49333ea69",
+    "timestamp": "2026-06-01T11:43:32.967080",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The sentence \"My name are Ren Haikal bin Zulkifli\" should use \"is\" instead of \"are.\"",
+        "\"two childrens\" should be \"two children.\"",
+        "\"housing lone\" should be \"housing loan.\""
+      ],
+      "spelling": [
+        "\"currenty\" should be \"currently.\"",
+        "\"graduatted\" should be \"graduated.\"",
+        "\"Engginer\" should be \"Engineer.\"",
+        "\"responsibel\" should be \"responsible.\"",
+        "\"montly\" should be \"monthly.\"",
+        "\"personel\" should be \"personal.\""
+      ],
+      "structure": [
+        "The sentence structure could be improved for better flow. For example, combining related information or rephrasing for conciseness.",
+        "The information about the car loan and housing loan, while personal details, might be more appropriate for a personal statement or a loan application document rather than a general introduction. However, if this is a personal financial profile, it could be acceptable."
+      ],
+      "tone": [
+        "The tone is generally informative and factual.",
+        "The inclusion of personal financial details (salary, loans, living situation) might be considered overly personal for some professional contexts, depending on the intended audience and purpose of this text. If this is for a specific application where financial stability is a key factor, it could be appropriate."
+      ],
+      "rewrite": "My name is Ren Haikal bin Zulkifli. I was born on March 14, 1995, in Kuala Lumpur but am currently residing in Petaling Jaya, Selangor. I hold a Bachelor Degree in Computer Science from Universiti Malaya, graduated in 2017 with a Second Class Upper. Currently, I am working as a Senior Software Engineer at a local fintech company for the past 6 years, where I am responsible for leading the backend development team. My monthly salary is around RM 7,500 and I have an outstanding car loan under Maybank with a remaining balance of RM 34,200. I live with my wife, Nurul Ain, and two children aged 4 and 7. We are currently renting an apartment in SS15 and planning to apply for a housing loan under BSN before the end of this year. My contact number is 012-XXXXXX and my personal email is haikalrz@gmail.com."
+    }
+  },
+  {
+    "id": "b8f4ae3c-bcac-4eb9-b605-dce31163a2f6",
+    "timestamp": "2026-06-01T11:36:47.519858",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The phrase \"hit the wall again on flash-lite\" is informal and could be more precisely worded.",
+        "The conjunction \"so\" is used to connect two independent clauses, which is grammatically acceptable but could be improved for flow.",
+        "The phrase \"either way\" at the end of the sentence feels slightly abrupt and could be integrated more smoothly."
+      ],
+      "spelling": [],
+      "structure": [
+        "The first sentence, \"One thing to watch: Google reduced free tier limits in December 2025 without notice, so if you ever hit the wall again on flash-lite, enabling billing is the safest long-term move,\" is quite long and contains multiple clauses. Consider breaking it down for better readability.",
+        "The sentence structure could be improved by rephrasing the conditional clause for a more direct impact.",
+        "The placement of the tags \"AI Free API\" at the end of the paragraph interrupts the flow of the sentence."
+      ],
+      "tone": [
+        "The tone is informative and cautionary, which is appropriate for the content.",
+        "The use of \"hit the wall\" is informal and might not be suitable for all professional contexts.",
+        "The overall tone is direct and practical, offering a clear recommendation."
+      ],
+      "rewrite": "One key point to monitor: Google reduced its free tier limits in December 2025 without prior notice. Therefore, if you encounter limitations again with Flash-Lite, enabling billing is the most secure long-term strategy. Flash-Lite is approximately 10 times cheaper per token than Pro, meaning the cost for renScan usage would be negligible regardless of your choice. [AI Free API] [AI Free API]"
+    }
+  }
+]

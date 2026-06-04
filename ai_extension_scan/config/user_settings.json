@@ -1,0 +1,10 @@
+{
+  "hotkey": "ctrl+shift+x",
+  "check_mode": "full",
+  "auto_start": false,
+  "save_history": true,
+  "privacy_mode": true,
+  "appearance_mode": "system",
+  "color_theme": "blue",
+  "active_preset": "p1_2393"
+}

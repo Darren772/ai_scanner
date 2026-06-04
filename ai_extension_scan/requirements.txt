@@ -1,0 +1,8 @@
+google-genai
+Pillow
+mss
+keyboard
+pystray
+customtkinter>=5.0
+openai          # optional — needed only if provider = openai
+anthropic       # optional — needed only if provider = anthropic

@@ -1,0 +1,308 @@
+2026-06-01 00:13:11,717 [INFO] Hotkey registered: ctrl+shift+s
+2026-06-01 00:13:11,767 [INFO] renScan started — tray icon active
+2026-06-01 00:14:38,790 [INFO] Hotkey registered: ctrl+shift+s
+2026-06-01 00:14:38,828 [INFO] renScan started — tray icon active
+2026-06-01 00:14:45,469 [INFO] Hotkey triggered — opening overlay
+2026-06-01 00:14:50,544 [INFO] Region selected: (149, 128)  1636×920
+2026-06-01 00:15:05,510 [ERROR] Check failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-06-01 11:01:49,604 [INFO] Hotkey registered: ctrl+shift+s
+2026-06-01 11:01:49,705 [INFO] renScan started
+2026-06-01 11:02:13,031 [INFO] Hotkey triggered
+2026-06-01 11:02:19,112 [INFO] Region selected: (13, 220)  648×451
+2026-06-01 11:02:34,535 [ERROR] Check failed: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-06-01 11:04:43,729 [INFO] Hotkey triggered
+2026-06-01 11:04:51,490 [INFO] Region selected: (1635, 131)  266×400
+2026-06-01 11:04:51,849 [ERROR] Check failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-01 11:05:27,563 [INFO] Hotkey triggered
+2026-06-01 11:05:31,987 [INFO] Region selected: (1642, 141)  255×384
+2026-06-01 11:05:32,252 [ERROR] Check failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-01 11:08:31,615 [INFO] Hotkey triggered
+2026-06-01 11:08:36,675 [INFO] Region selected: (1644, 139)  250×378
+2026-06-01 11:08:37,139 [ERROR] Check failed: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. 
+2026-06-01 11:13:21,280 [INFO] Quitting renScan
+2026-06-01 11:13:46,765 [INFO] Hotkey registered: ctrl+shift+s
+2026-06-01 11:13:46,800 [INFO] renScan started
+2026-06-01 11:13:52,633 [INFO] Hotkey triggered
+2026-06-01 11:13:59,046 [INFO] Region selected: (1668, 126)  228×354
+2026-06-01 11:14:03,217 [ERROR] Check failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-06-01 11:14:25,156 [INFO] Hotkey triggered
+2026-06-01 11:14:30,084 [INFO] Region selected: (36, 225)  626×522
+2026-06-01 11:14:31,641 [ERROR] Check failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-06-01 11:16:14,336 [INFO] Quitting renScan
+2026-06-01 11:31:25,001 [INFO] Hotkey registered: ctrl+shift+s
+2026-06-01 11:31:25,022 [INFO] renScan started
+2026-06-01 11:31:27,745 [INFO] Hotkey triggered
+2026-06-01 11:31:31,756 [INFO] Region selected: (1636, 449)  265×412
+2026-06-01 11:31:34,581 [ERROR] Check failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 26.75654831s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '26s'}]}}
+2026-06-01 11:36:31,507 [INFO] Hotkey registered: ctrl+shift+s
+2026-06-01 11:36:31,527 [INFO] renScan started
+2026-06-01 11:36:37,553 [INFO] Hotkey triggered
+2026-06-01 11:36:40,448 [INFO] Region selected: (305, 733)  580×88
+2026-06-01 11:36:47,614 [INFO] Check complete
+2026-06-01 11:38:14,742 [INFO] Hotkey triggered
+2026-06-01 11:38:48,879 [INFO] Hotkey registered: ctrl+shift+s
+2026-06-01 11:38:48,895 [INFO] renScan started
+2026-06-01 11:39:22,449 [INFO] Hotkey triggered
+2026-06-01 11:39:24,270 [INFO] Region selected: (1047, 303)  256×145
+2026-06-01 11:39:25,601 [ERROR] Check failed: [Errno 11001] getaddrinfo failed
+2026-06-01 11:39:50,769 [INFO] Hotkey registered: ctrl+shift+w
+2026-06-01 11:39:50,787 [INFO] renScan started
+2026-06-01 11:39:58,040 [INFO] Hotkey triggered
+2026-06-01 11:40:01,847 [INFO] Region selected: (278, 416)  628×237
+2026-06-01 11:40:03,138 [ERROR] Check failed: [Errno 11001] getaddrinfo failed
+2026-06-01 11:40:20,060 [INFO] Hotkey triggered
+2026-06-01 11:40:34,158 [INFO] Hotkey registered: ctrl+shift+w
+2026-06-01 11:40:34,178 [INFO] renScan started
+2026-06-01 11:43:15,033 [INFO] Hotkey registered: ctrl+shift+w
+2026-06-01 11:43:15,085 [INFO] renScan started
+2026-06-01 11:43:22,348 [INFO] Hotkey triggered
+2026-06-01 11:43:25,368 [INFO] Region selected: (276, 558)  648×242
+2026-06-01 11:43:33,208 [INFO] Check complete
+2026-06-01 11:46:02,401 [INFO] Hotkey registered: ctrl+shift+w
+2026-06-01 11:46:02,452 [INFO] renScan started
+2026-06-01 11:47:19,111 [INFO] Hotkey registered: ctrl+shift+w
+2026-06-01 11:47:19,143 [INFO] renScan started
+2026-06-01 11:50:18,072 [INFO] Hotkey triggered
+2026-06-01 11:51:46,090 [INFO] Hotkey registered: ctrl+shift+w
+2026-06-01 11:51:46,129 [INFO] renScan started
+2026-06-01 11:53:19,868 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-01 11:53:19,936 [INFO] renScan started
+2026-06-01 11:53:24,942 [INFO] Hotkey triggered
+2026-06-01 11:53:34,575 [INFO] Region selected: (284, 458)  8×69
+2026-06-01 11:53:42,885 [INFO] Check complete
+2026-06-01 11:54:03,549 [INFO] Hotkey triggered
+2026-06-01 11:54:03,696 [INFO] Region selected: (0, 0)  852×750
+2026-06-01 11:54:06,745 [INFO] Hotkey triggered
+2026-06-01 11:54:09,471 [INFO] Check complete
+2026-06-01 11:54:11,977 [INFO] Region selected: (281, 477)  608×74
+2026-06-01 11:54:16,839 [INFO] Check complete
+2026-06-01 11:55:11,760 [INFO] Hotkey triggered
+2026-06-01 11:55:16,922 [INFO] Region selected: (286, 474)  608×83
+2026-06-01 11:55:22,044 [INFO] Check complete
+2026-06-01 11:56:05,543 [INFO] Hotkey triggered
+2026-06-01 11:56:15,254 [INFO] Region selected: (752, 478)  643×81
+2026-06-01 11:56:19,832 [INFO] Check complete
+2026-06-01 11:56:35,025 [INFO] Hotkey triggered
+2026-06-01 11:56:46,540 [INFO] Region selected: (757, 615)  626×88
+2026-06-01 11:56:52,848 [INFO] Check complete
+2026-06-01 13:19:36,159 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-01 13:19:36,189 [INFO] renScan started
+2026-06-01 13:23:04,316 [INFO] Hotkey triggered
+2026-06-01 13:23:13,032 [INFO] Region selected: (293, 517)  601×73
+2026-06-01 13:23:19,154 [INFO] Check complete
+2026-06-01 13:24:02,234 [INFO] Hotkey triggered
+2026-06-01 13:24:02,331 [INFO] Region selected: (0, 0)  826×612
+2026-06-01 13:24:05,366 [INFO] Hotkey triggered
+2026-06-01 13:24:05,467 [INFO] Region selected: (0, 0)  557×525
+2026-06-01 13:24:10,809 [INFO] Check complete
+2026-06-01 13:24:11,198 [INFO] Check complete
+2026-06-01 13:24:15,320 [INFO] Hotkey triggered
+2026-06-01 13:24:15,411 [INFO] Region selected: (0, 0)  1190×296
+2026-06-01 13:24:15,486 [INFO] Hotkey triggered
+2026-06-01 13:24:19,223 [INFO] Region selected: (277, 511)  615×88
+2026-06-01 13:24:22,903 [INFO] Check complete
+2026-06-01 13:24:24,229 [INFO] Check complete
+2026-06-02 11:26:00,148 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 11:26:00,168 [INFO] renScan started
+2026-06-02 12:26:00,177 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 12:26:00,242 [INFO] renScan started
+2026-06-02 12:26:47,050 [INFO] Hotkey triggered
+2026-06-02 12:26:57,854 [INFO] Region selected: (282, 340)  607×81
+2026-06-02 12:27:04,841 [INFO] Check complete
+2026-06-02 21:56:44,537 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 21:56:44,598 [INFO] renScan started
+2026-06-02 21:58:39,530 [INFO] Hotkey triggered
+2026-06-02 21:58:42,068 [INFO] Hotkey triggered
+2026-06-02 21:58:45,317 [INFO] Region selected: (66, 203)  856×226
+2026-06-02 21:58:53,227 [INFO] Check complete
+2026-06-02 21:59:10,494 [INFO] Hotkey triggered
+2026-06-02 21:59:10,576 [INFO] Region selected: (0, 0)  634×459
+2026-06-02 21:59:15,220 [INFO] Check complete
+2026-06-02 21:59:20,924 [INFO] Hotkey triggered
+2026-06-02 21:59:21,005 [INFO] Region selected: (0, 0)  1006×332
+2026-06-02 21:59:25,620 [INFO] Check complete
+2026-06-02 22:03:52,361 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:03:52,381 [INFO] renScan started
+2026-06-02 22:07:54,326 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:07:54,348 [INFO] renScan started
+2026-06-02 22:11:21,376 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:11:21,404 [INFO] renScan started
+2026-06-02 22:12:12,343 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:12:12,361 [INFO] renScan started
+2026-06-02 22:17:53,185 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:17:53,222 [INFO] renScan started
+2026-06-02 22:20:00,627 [INFO] Hotkey triggered
+2026-06-02 22:20:00,627 [INFO] Hotkey triggered
+2026-06-02 22:20:00,627 [INFO] Hotkey triggered
+2026-06-02 22:20:00,627 [INFO] Hotkey triggered
+2026-06-02 22:20:03,268 [INFO] Region selected: (138, 313)  653×157
+2026-06-02 22:20:07,933 [INFO] Check complete
+2026-06-02 22:20:41,738 [INFO] Hotkey triggered
+2026-06-02 22:20:41,738 [INFO] Hotkey triggered
+2026-06-02 22:20:41,738 [INFO] Hotkey triggered
+2026-06-02 22:20:41,738 [INFO] Hotkey triggered
+2026-06-02 22:20:44,022 [INFO] Region selected: (141, 308)  675×220
+2026-06-02 22:20:44,045 [INFO] Region selected: (0, 0)  816×528
+2026-06-02 22:20:50,117 [INFO] Check complete
+2026-06-02 22:20:51,033 [INFO] Check complete
+2026-06-02 22:22:19,966 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:22:19,986 [INFO] renScan started
+2026-06-02 22:23:17,205 [INFO] Quitting renScan
+2026-06-02 22:23:58,737 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:23:58,754 [INFO] renScan started
+2026-06-02 22:24:40,668 [INFO] Quitting renScan
+2026-06-02 22:24:42,568 [INFO] Quitting renScan
+2026-06-02 22:24:46,685 [INFO] Quitting renScan
+2026-06-02 22:24:50,568 [INFO] Quitting renScan
+2026-06-02 22:25:19,568 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:25:19,583 [INFO] renScan started
+2026-06-02 22:25:22,197 [INFO] Hotkey triggered
+2026-06-02 22:25:27,044 [INFO] Region selected: (1261, 279)  320×172
+2026-06-02 22:25:28,302 [ERROR] Check failed: [Errno 11001] getaddrinfo failed
+2026-06-02 22:25:33,923 [INFO] Hotkey triggered
+2026-06-02 22:25:37,180 [INFO] Region selected: (1634, 375)  269×170
+2026-06-02 22:25:37,644 [ERROR] Check failed: [Errno 11001] getaddrinfo failed
+2026-06-02 22:39:55,601 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:39:55,643 [INFO] renScan started
+2026-06-02 22:39:58,156 [INFO] Hotkey triggered
+2026-06-02 22:40:00,827 [INFO] Region selected: (1252, 744)  352×109
+2026-06-02 22:40:06,828 [INFO] Check complete
+2026-06-02 22:40:54,856 [INFO] Hotkey triggered
+2026-06-02 22:41:00,733 [INFO] Hotkey triggered
+2026-06-02 22:41:03,513 [INFO] Region selected: (191, 317)  642×145
+2026-06-02 22:41:17,065 [INFO] Check complete
+2026-06-02 22:41:39,558 [INFO] Hotkey triggered
+2026-06-02 22:45:54,903 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:45:54,924 [INFO] renScan started
+2026-06-02 22:45:57,586 [INFO] Hotkey triggered
+2026-06-02 22:45:59,942 [INFO] Region selected: (194, 314)  650×150
+2026-06-02 22:46:07,711 [INFO] Check complete
+2026-06-02 22:50:39,506 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:50:39,545 [INFO] renScan started
+2026-06-02 22:51:28,342 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-02 22:51:28,371 [INFO] renScan started
+2026-06-02 22:51:41,948 [INFO] Hotkey triggered
+2026-06-02 22:51:41,948 [INFO] Hotkey triggered
+2026-06-02 22:51:44,789 [INFO] Region selected: (191, 312)  643×151
+2026-06-02 22:51:53,201 [INFO] Check complete
+2026-06-03 13:34:38,123 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 13:34:38,225 [INFO] renScan started
+2026-06-03 13:35:12,630 [INFO] Hotkey triggered
+2026-06-03 13:35:16,750 [INFO] Hotkey triggered
+2026-06-03 13:35:20,105 [INFO] Region selected: (162, 308)  631×147
+2026-06-03 13:35:28,995 [INFO] Check complete
+2026-06-03 13:37:26,367 [INFO] Hotkey triggered
+2026-06-03 13:37:29,640 [INFO] Region selected: (154, 311)  630×143
+2026-06-03 13:37:33,484 [INFO] Check complete
+2026-06-03 13:42:56,351 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 13:42:56,370 [INFO] renScan started
+2026-06-03 13:43:02,404 [INFO] Hotkey triggered
+2026-06-03 13:43:05,915 [INFO] Region selected: (162, 318)  633×152
+2026-06-03 13:43:10,705 [INFO] Check complete
+2026-06-03 13:43:32,869 [INFO] Hotkey triggered
+2026-06-03 13:43:35,832 [INFO] Region selected: (157, 302)  655×161
+2026-06-03 13:43:39,359 [ERROR] Check failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-06-03 13:43:45,967 [INFO] Hotkey triggered
+2026-06-03 13:43:49,298 [INFO] Region selected: (153, 314)  664×158
+2026-06-03 13:43:55,826 [INFO] Check complete
+2026-06-03 13:54:39,609 [INFO] Hotkey triggered
+2026-06-03 13:54:53,471 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 13:54:53,489 [INFO] renScan started
+2026-06-03 13:54:59,298 [INFO] Hotkey triggered
+2026-06-03 13:55:03,730 [INFO] Region selected: (157, 313)  655×146
+2026-06-03 13:55:03,774 [ERROR] Check failed: The 'openai' package is not installed.
+Run:  pip install openai
+2026-06-03 13:55:22,154 [INFO] Hotkey triggered
+2026-06-03 13:55:24,800 [INFO] Region selected: (151, 308)  640×161
+2026-06-03 13:55:24,827 [ERROR] Check failed: The 'openai' package is not installed.
+Run:  pip install openai
+2026-06-03 13:56:03,266 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 13:56:03,288 [INFO] renScan started
+2026-06-03 13:56:04,812 [INFO] Hotkey triggered
+2026-06-03 13:56:08,235 [INFO] Region selected: (167, 314)  621×145
+2026-06-03 13:56:08,274 [ERROR] Check failed: The 'openai' package is not installed.
+Run:  pip install openai
+2026-06-03 14:00:05,922 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 14:00:05,939 [INFO] renScan started
+2026-06-03 14:00:09,078 [INFO] Hotkey triggered
+2026-06-03 14:00:13,173 [INFO] Region selected: (159, 313)  641×147
+2026-06-03 14:00:13,219 [ERROR] Check failed: The 'openai' package is not installed.
+Run:  pip install openai
+2026-06-03 14:04:45,536 [INFO] Hotkey triggered
+2026-06-03 14:04:58,608 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 14:04:58,631 [INFO] renScan started
+2026-06-03 14:05:02,785 [INFO] Hotkey triggered
+2026-06-03 14:05:05,537 [INFO] Region selected: (157, 313)  638×147
+2026-06-03 14:05:05,603 [ERROR] Check failed: The 'openai' package is not installed.
+Run:  pip install openai
+2026-06-03 14:07:15,078 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 14:07:15,100 [INFO] renScan started
+2026-06-03 14:07:21,984 [INFO] Hotkey triggered
+2026-06-03 14:07:24,985 [INFO] Region selected: (156, 316)  635×140
+2026-06-03 14:07:32,104 [INFO] Check complete
+2026-06-03 14:08:32,702 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 14:08:32,726 [INFO] renScan started
+2026-06-03 14:08:34,992 [INFO] Hotkey triggered
+2026-06-03 14:08:37,626 [INFO] Region selected: (167, 321)  612×129
+2026-06-03 14:08:37,666 [ERROR] Check failed: The 'openai' package is not installed.
+Run:  pip install openai
+2026-06-03 14:08:54,087 [INFO] Hotkey triggered
+2026-06-03 14:08:56,868 [INFO] Region selected: (157, 316)  646×138
+2026-06-03 14:08:56,894 [ERROR] Check failed: The 'openai' package is not installed.
+Run:  pip install openai
+2026-06-03 14:11:51,525 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 14:11:51,543 [INFO] renScan started
+2026-06-03 14:12:09,355 [INFO] Hotkey triggered
+2026-06-03 14:12:13,696 [INFO] Region selected: (163, 314)  654×140
+2026-06-03 14:12:20,793 [INFO] Check complete
+2026-06-03 14:14:20,970 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 14:14:20,988 [INFO] renScan started
+2026-06-03 14:14:29,070 [INFO] Hotkey triggered
+2026-06-03 14:14:31,824 [INFO] Region selected: (150, 315)  667×143
+2026-06-03 14:14:37,646 [INFO] Check complete
+2026-06-03 14:27:50,128 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 14:27:50,144 [INFO] renScan started
+2026-06-03 14:29:14,143 [INFO] Hotkey triggered
+2026-06-03 14:29:17,919 [INFO] Hotkey triggered
+2026-06-03 14:29:20,712 [INFO] Region selected: (152, 313)  639×145
+2026-06-03 14:29:24,105 [INFO] Check complete
+2026-06-03 14:29:49,991 [INFO] Hotkey triggered
+2026-06-03 14:29:52,745 [INFO] Region selected: (138, 316)  670×141
+2026-06-03 14:29:58,780 [INFO] Check complete
+2026-06-03 14:32:11,308 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 14:32:11,331 [INFO] renScan started
+2026-06-03 14:32:15,340 [INFO] Hotkey triggered
+2026-06-03 14:32:18,052 [INFO] Region selected: (151, 312)  641×145
+2026-06-03 14:32:25,032 [INFO] Check complete
+2026-06-03 14:32:58,653 [INFO] Hotkey triggered
+2026-06-03 14:33:01,731 [INFO] Region selected: (155, 316)  622×131
+2026-06-03 14:33:05,569 [INFO] Check complete
+2026-06-03 14:33:46,043 [INFO] Hotkey triggered
+2026-06-03 14:33:48,509 [INFO] Region selected: (145, 313)  642×157
+2026-06-03 14:33:51,862 [INFO] Check complete
+2026-06-03 14:38:15,765 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 14:38:15,791 [INFO] renScan started
+2026-06-03 14:40:12,238 [INFO] Hotkey triggered
+2026-06-03 14:40:15,713 [INFO] Region selected: (156, 315)  624×142
+2026-06-03 14:40:34,580 [INFO] Check complete
+2026-06-03 14:41:05,508 [INFO] Hotkey triggered
+2026-06-03 14:41:08,271 [INFO] Region selected: (155, 317)  637×141
+2026-06-03 14:41:22,310 [INFO] Check complete
+2026-06-03 15:37:01,799 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 15:37:01,848 [INFO] renScan started
+2026-06-03 15:37:43,850 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-03 15:37:43,870 [INFO] renScan started
+2026-06-03 15:38:19,434 [INFO] Hotkey triggered
+2026-06-03 15:38:22,971 [INFO] Region selected: (156, 315)  664×141
+2026-06-03 15:38:52,670 [INFO] Check complete
+2026-06-03 18:51:34,926 [INFO] Quitting renScan
+2026-06-04 20:13:51,579 [INFO] Hotkey registered: ctrl+shift+x
+2026-06-04 20:13:51,623 [INFO] renScan started
