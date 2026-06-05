@@ -2,7 +2,7 @@
 Floating always-on-top results window (CustomTkinter, frameless).
 
 Layout v2:
-  - Draggable header with 'renScan', active preset name, and close button
+  - Draggable header with 'renScan', active preset name, minimize and close buttons
   - Summary bar: "⚠ 3 grammar · 1 spelling issue(s) found"
   - Single scrollable report:
       - Color-coded section cards (Grammar 🔴, Spelling 🟡, Structure 🔵, Tone 🟣)
@@ -13,6 +13,11 @@ Layout v2:
   - Loading screen with rotating status messages
   - Footer: "Copy Full Report" + "Copy Rewrite" full-width buttons
   - Esc to dismiss
+
+Multiple panels:
+  Each scan creates its own independent ResultsPanel instance.
+  Panels are cascade-offset so they are visually distinct on screen.
+  Use the minimize button (–) to tuck a panel out of the way without closing it.
 """
 
 import customtkinter as ctk
@@ -42,14 +47,24 @@ _LOADING_MSGS = [
     "✨  Preparing your report…",
 ]
 
+# Cascade step — each new panel is offset by this many pixels right+down
+_CASCADE_STEP = 32
+
 
 # ── Panel Window ─────────────────────────────────────────────────────────────
 
-class _ResultsPanel(ctk.CTkToplevel):
-    """The floating results panel window."""
+class ResultsPanel(ctk.CTkToplevel):
+    """
+    Floating results panel window.
+    Each scan creates its own independent instance.
+    Panels are automatically cascade-positioned so they don't overlap exactly.
+    """
 
     WIDTH  = 530
     HEIGHT = 660
+
+    # Class-level counter drives cascade offset
+    _open_count: int = 0
 
     def __init__(self) -> None:
         super().__init__()
@@ -63,11 +78,18 @@ class _ResultsPanel(ctk.CTkToplevel):
         self._result       = None
         self._drag_ox      = 0
         self._drag_oy      = 0
+        self._dragged      = False
         self._msg_index    = 0
         self._rotate_id    = None
+        self._minimized    = False
+
+        # Capture cascade index before incrementing
+        self._cascade_idx = ResultsPanel._open_count
+        ResultsPanel._open_count += 1
+        self.scan_number = self._cascade_idx + 1
 
         self._build_ui()
-        self._center()
+        self._center_cascaded()
         self.bind("<Escape>", lambda _e: self.close())
 
     # ── Layout ───────────────────────────────────────────────────────────────
@@ -79,7 +101,7 @@ class _ResultsPanel(ctk.CTkToplevel):
         self._header.pack_propagate(False)
 
         self._header_lbl = ctk.CTkLabel(
-            self._header, text="  ⬤  renScan",
+            self._header, text=f"  ⬤  renScan #{self.scan_number}",
             font=ctk.CTkFont(size=14, weight="bold"),
             text_color="white",
         )
@@ -92,12 +114,21 @@ class _ResultsPanel(ctk.CTkToplevel):
         )
         self._preset_lbl.pack(side="left", padx=(0, 6))
 
+        # Close button
         ctk.CTkButton(
             self._header, text="✕", width=36, height=32,
             fg_color="transparent", text_color="white",
             hover_color="#c0392b", corner_radius=6,
             command=self.close,
         ).pack(side="right", padx=8, pady=10)
+
+        # Minimize button
+        ctk.CTkButton(
+            self._header, text="–", width=36, height=32,
+            fg_color="transparent", text_color="white",
+            hover_color="#2563eb", corner_radius=6,
+            command=self._toggle_minimize,
+        ).pack(side="right", padx=(0, 0), pady=10)
 
         self._header.bind("<ButtonPress-1>", self._drag_start)
         self._header.bind("<B1-Motion>",     self._drag_move)
@@ -167,23 +198,82 @@ class _ResultsPanel(ctk.CTkToplevel):
         )
         self._btn_rewrite.pack(side="left", fill="x", expand=True)
 
+    # ── Minimize ─────────────────────────────────────────────────────────────
+
+    def _toggle_minimize(self) -> None:
+        """Collapse to a tiny square showing the scan number, or restore full size."""
+        if self._minimized:
+            # Restore
+            self._mini_frame.pack_forget()
+            
+            self._header.pack(fill="x")
+            self._header_accent.pack(fill="x")
+            self._body.pack(fill="both", expand=True)
+            
+            self.resizable(True, True)
+            self.minsize(430, 500)
+            self.geometry(f"{self.WIDTH}x{self.HEIGHT}")
+            self._minimized = False
+        else:
+            # Collapse
+            self._header.pack_forget()
+            self._header_accent.pack_forget()
+            self._body.pack_forget()
+            
+            if not hasattr(self, "_mini_frame"):
+                self._mini_frame = ctk.CTkFrame(
+                    self, corner_radius=12,
+                    fg_color=_HEADER_BG,
+                    border_color="#4f83ff",
+                    border_width=2,
+                )
+                self._mini_lbl = ctk.CTkLabel(
+                    self._mini_frame,
+                    text=str(self.scan_number),
+                    font=ctk.CTkFont(size=20, weight="bold"),
+                    text_color="white",
+                )
+                self._mini_lbl.pack(fill="both", expand=True)
+                
+                # Bind dragging and clicking
+                for widget in (self._mini_frame, self._mini_lbl):
+                    widget.bind("<ButtonPress-1>", self._drag_start)
+                    widget.bind("<B1-Motion>",     self._drag_move)
+                    widget.bind("<ButtonRelease-1>", self._on_mini_click)
+
+            self._mini_frame.pack(fill="both", expand=True)
+            self.resizable(False, False)
+            self.minsize(0, 0)
+            self.geometry("52x52")
+            self._minimized = True
+
     # ── Dragging ─────────────────────────────────────────────────────────────
 
     def _drag_start(self, event: object) -> None:
         self._drag_ox = event.x_root - self.winfo_x()
         self._drag_oy = event.y_root - self.winfo_y()
+        self._dragged = False
 
     def _drag_move(self, event: object) -> None:
+        self._dragged = True
         self.geometry(f"+{event.x_root - self._drag_ox}+{event.y_root - self._drag_oy}")
+
+    def _on_mini_click(self, event: object) -> None:
+        if not self._dragged:
+            self._toggle_minimize()
 
     # ── Helpers ──────────────────────────────────────────────────────────────
 
-    def _center(self) -> None:
+    def _center_cascaded(self) -> None:
+        """Center the first panel; subsequent panels are offset by cascade step."""
         self.update_idletasks()
         sw = self.winfo_screenwidth()
         sh = self.winfo_screenheight()
-        x = (sw - self.WIDTH) // 2
-        y = (sh - self.HEIGHT) // 2
+        base_x = (sw - self.WIDTH)  // 2
+        base_y = (sh - self.HEIGHT) // 2
+        offset = self._cascade_idx * _CASCADE_STEP
+        x = base_x + offset
+        y = base_y + offset
         self.geometry(f"+{x}+{y}")
 
     def _rotate_msg(self) -> None:
@@ -388,8 +478,53 @@ class _ResultsPanel(ctk.CTkToplevel):
         if result.rewrite:
             self._build_rewrite(result.rewrite)
 
+        # If panel was minimized while loading, restore it now that results are ready
+        if self._minimized:
+            self._toggle_minimize()
+
         self._scroll.pack(fill="both", expand=True)
         self._footer.pack(fill="x", side="bottom")
+
+    def show_error(self, error_msg: str) -> None:
+        """Display an error message inside the panel instead of silently closing it."""
+        # Stop loading animation
+        if self._rotate_id:
+            try:
+                self.after_cancel(self._rotate_id)
+            except Exception:
+                pass
+            self._rotate_id = None
+        self._progress.stop()
+        self._loading_frame.place_forget()
+
+        # Clear any previous results
+        for w in self._scroll.winfo_children():
+            w.destroy()
+
+        # Error Card (red-tinted background)
+        card = ctk.CTkFrame(
+            self._scroll, corner_radius=12,
+            fg_color=("#fdecea", "#2a1616"),
+            border_color=(_GRAMMAR_COL, "#5c1a1a"),
+            border_width=1,
+        )
+        card.pack(fill="x", padx=16, pady=20)
+
+        ctk.CTkLabel(
+            card,
+            text=f"❌  Scan Failed\n\n{error_msg}",
+            font=ctk.CTkFont(size=14),
+            text_color=(_GRAMMAR_COL, "#e74c3c"),
+            justify="center",
+            wraplength=400,
+        ).pack(pady=22, padx=20)
+
+        # Restore window size if minimized
+        if self._minimized:
+            self._toggle_minimize()
+
+        self._scroll.pack(fill="both", expand=True)
+        self._footer.pack_forget()
 
     def _copy_all(self) -> None:
         if not self._result:
@@ -418,20 +553,24 @@ class _ResultsPanel(ctk.CTkToplevel):
             if self._rotate_id:
                 self.after_cancel(self._rotate_id)
             self._progress.stop()
+            # Decrement open count so future panels don't cascade infinitely
+            ResultsPanel._open_count = max(0, ResultsPanel._open_count - 1)
             self.destroy()
         except Exception:
             pass
 
 
-# ── Module-level singleton ────────────────────────────────────────────────────
+# ── Backward-compat module-level helpers ─────────────────────────────────────
+# These are kept so any code that still calls results_panel.show() or
+# results_panel.show_loading() continues to work unchanged.
 
-_panel: _ResultsPanel | None = None
+_panel: ResultsPanel | None = None
 
 
-def _get_or_create() -> _ResultsPanel:
+def _get_or_create() -> ResultsPanel:
     global _panel
     if _panel is None or not _panel.winfo_exists():
-        _panel = _ResultsPanel()
+        _panel = ResultsPanel()
     return _panel
 
 
@@ -448,3 +587,7 @@ def close() -> None:
     if _panel and _panel.winfo_exists():
         _panel.close()
     _panel = None
+
+
+
+

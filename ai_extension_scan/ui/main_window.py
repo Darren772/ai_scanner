@@ -44,6 +44,7 @@ class MainWindow:
         self._root    = root
         self._on_scan = on_scan
         self._nav_btns: dict[str, ctk.CTkButton] = {}
+        self._home_dirty = True   # True = needs rebuild before next display
 
         self._configure_root()
         self._build_layout()
@@ -169,8 +170,15 @@ class MainWindow:
         return frame
 
     def refresh_home(self) -> None:
-        """Re-populate home stats. Call after each completed scan."""
-        self._populate_home(self._home_panel)
+        """Mark home as dirty so it rebuilds on next visit (or rebuild now if visible)."""
+        self._home_dirty = True
+        # If home is already the front panel, refresh immediately
+        try:
+            if self._home_panel.winfo_ismapped():
+                self._populate_home(self._home_panel)
+                self._home_dirty = False
+        except Exception:
+            pass
 
     def _populate_home(self, frame: ctk.CTkFrame) -> None:
         for w in frame.winfo_children():
@@ -385,7 +393,9 @@ class MainWindow:
 
     def _show_home(self) -> None:
         self._set_nav_active("home")
-        self._populate_home(self._home_panel)
+        if self._home_dirty:
+            self._populate_home(self._home_panel)
+            self._home_dirty = False
         self._home_panel.tkraise()
 
     # ── History Panel ───────────────────────────────────────────────────────
@@ -687,6 +697,13 @@ class MainWindow:
         priv.configure(state="disabled")
         priv.pack(anchor="w", pady=4)
 
+        # Max concurrent scans row
+        scans_row = ctk.CTkFrame(form, fg_color="transparent")
+        scans_row.pack(anchor="w", pady=4)
+        ctk.CTkLabel(scans_row, text="Max concurrent scans:   ", anchor="w").pack(side="left")
+        concurrent_var = ctk.StringVar(value=str(current.get("max_concurrent_scans", 3)))
+        ctk.CTkOptionMenu(scans_row, variable=concurrent_var, values=["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], width=80).pack(side="left")
+
         # ── Writing Contexts ──
         from config import presets as presets_module
         _section("Writing Contexts")
@@ -799,39 +816,48 @@ class MainWindow:
             # Rules Input (Textbox for multiline support)
             rules_textbox = ctk.CTkTextbox(modal, width=420, height=140)
             rules_textbox.pack(pady=5)
-            rules_textbox.insert("0.0", "Context rules for the AI (e.g. You're a professional AI that will check grammar without fixing structure...)")
-            
-            # Simple text clear when clicked if it matches placeholder
+            _placeholder = "Context rules for the AI (e.g. You're a professional AI that will check grammar without fixing structure...)"
+            rules_textbox.insert("0.0", _placeholder)
+
             def _clear_placeholder(e):
-                if rules_textbox.get("0.0", "end").strip() == "Context rules for the AI (e.g. You're a professional AI that will check grammar without fixing structure...)":
+                if rules_textbox.get("0.0", "end").strip() == _placeholder:
                     rules_textbox.delete("0.0", "end")
             rules_textbox.bind("<FocusIn>", _clear_placeholder)
 
             def _save_modal_preset() -> None:
-                name = name_var.get().strip()
+                name  = name_var.get().strip()
                 rules = rules_textbox.get("0.0", "end").strip()
-                # If they didn't change placeholder, treat as empty
-                if rules == "Context rules for the AI (e.g. You're a professional AI that will check grammar without fixing structure...)":
+                if rules == _placeholder:
                     rules = ""
-                
                 if not name or not rules:
                     return
-                
-                # Update UI to show enhancing state
-                save_btn.configure(text="Enhancing with AI...", state="disabled")
-                modal.update()
-                
+
+                # Disable button and run enhancement in background thread
+                save_btn.configure(text="Enhancing with AI…", state="disabled")
+
                 import re, time
                 from core.enhancer import enhance_preset
-                
-                # Enhance the rules
-                enhanced_rules = enhance_preset(rules)
-                
-                pid = re.sub(r"[^a-z0-9_]", "_", name.lower()) + "_" + str(int(time.time()))[-4:]
-                presets_module.save_custom_preset(pid, f"✏ {name}", enhanced_rules, "")
-                
-                _refresh_ctx_list()
-                modal.destroy()
+
+                _name, _rules = name, rules
+
+                def _do_enhance() -> None:
+                    """Runs in background thread — no Tkinter calls allowed here."""
+                    enhanced = enhance_preset(_rules)
+                    pid = re.sub(r"[^a-z0-9_]", "_", _name.lower()) + "_" + str(int(time.time()))[-4:]
+                    presets_module.save_custom_preset(pid, f"✏ {_name}", enhanced, "")
+                    try:
+                        modal.after(0, _finish)
+                    except Exception:
+                        pass
+
+                def _finish() -> None:
+                    _refresh_ctx_list()
+                    try:
+                        modal.destroy()
+                    except Exception:
+                        pass
+
+                threading.Thread(target=_do_enhance, daemon=True).start()
 
             save_btn = ctk.CTkButton(
                 modal, text="Save & Enhance Preset", width=180, height=36,
@@ -860,6 +886,10 @@ class MainWindow:
             new["appearance_mode"] = appear_var.get().lower()
             new["auto_start"]      = autostart_var.get()
             new["save_history"]    = history_var.get()
+            try:
+                new["max_concurrent_scans"] = int(concurrent_var.get())
+            except ValueError:
+                new["max_concurrent_scans"] = 3
             settings_module.save(new)
 
             # Provider config
@@ -878,8 +908,8 @@ class MainWindow:
             else:
                 autostart.disable()
 
-            # Refresh home so provider badge + hotkey update
-            self.refresh_home()
+            # Mark home dirty so provider badge + hotkey update on next visit
+            self._home_dirty = True
 
             # Visual confirmation
             save_btn.configure(text="✓  Saved!", fg_color="#27ae60")

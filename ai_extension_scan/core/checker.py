@@ -32,23 +32,25 @@ _PROMPT_MAP = {
 def run(image_path: str, mode: str) -> CheckResult:
     """Run check and return structured result."""
     from config import prompts
+    from config import presets as _presets_mod
+    from config import settings as _settings_mod
     from api.client import get_provider   # ← provider-agnostic
 
-    # 1. Load the active preset first so it can fully control the prompt.
+    # 1. Load settings once — used for preset selection AND save_history below
+    _settings = _settings_mod.load()
+
+    # 2. Load the active preset so it can fully control the prompt.
     try:
-        from config import presets as _presets_mod
-        from config import settings as _settings_mod
-        _settings = _settings_mod.load()
         active_preset_id = _settings.get("active_preset", "general")
-        all_presets = _presets_mod.load_presets()
+        all_presets  = _presets_mod.load_presets()
         active_preset = all_presets.get(active_preset_id, all_presets.get("general", {}))
-        rules = active_preset.get("rules", "").strip()
+        rules    = active_preset.get("rules", "").strip()
         is_custom = active_preset.get("is_custom", False)
     except Exception:
-        rules = ""
+        rules     = ""
         is_custom = False
 
-    # 2. Build the prompt.
+    # 3. Build the prompt.
     # Always start with the mode-specific base prompt so the correct output
     # structure (e.g. grammar-only) and section headers are in place.
     prompt_fn_name = _PROMPT_MAP.get(mode, "full_check")
@@ -69,11 +71,11 @@ def run(image_path: str, mode: str) -> CheckResult:
         )
         prompt = lines[0] + constraint_block + "\n".join(lines[1:])
 
-    # 2. Get configured provider and call it
+    # 4. Get cached provider and call it
     provider = get_provider()
     raw = provider.send(image_path, prompt)
 
-    # 3. Parse using the provider's shared parser
+    # 5. Parse using the provider's shared parser
     parsed = provider.parse_response(raw)
 
     result = CheckResult(
@@ -85,14 +87,13 @@ def run(image_path: str, mode: str) -> CheckResult:
         raw=raw,
     )
 
-    # 4. Save history if enabled
+    # 6. Save history if enabled (reuse already-loaded settings — no second disk read)
     try:
-        from config import settings as settings_module
-        settings = settings_module.load()
-        if settings.get("save_history", True):
+        if _settings.get("save_history", True):
             from history import log as history_log
             history_log.append(mode, result)
     except Exception:
         pass  # Never let logging failure break the main flow
 
     return result
+

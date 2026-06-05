@@ -58,10 +58,25 @@ def load_provider_config() -> dict:
 
 
 def save_provider_config(cfg: dict) -> None:
-    """Write provider config to config/ai_provider.json."""
+    """Write provider config to config/ai_provider.json and invalidate cached provider."""
+    _invalidate_provider_cache()
     os.makedirs(os.path.dirname(_CONFIG_PATH), exist_ok=True)
     with open(_CONFIG_PATH, "w", encoding="utf-8") as f:
         json.dump(cfg, f, indent=2, ensure_ascii=False)
+
+
+# ── Provider cache ─────────────────────────────────────────────────────────
+# The SDK client (e.g. genai.Client) is expensive to construct on every scan.
+# We keep one instance alive and only recreate it when the config changes.
+
+_cached_provider: AIProvider | None = None
+_cached_provider_key: tuple | None = None   # (provider_id, model, api_key)
+
+
+def _invalidate_provider_cache() -> None:
+    global _cached_provider, _cached_provider_key
+    _cached_provider = None
+    _cached_provider_key = None
 
 
 # ── Factory ────────────────────────────────────────────────────────────────
@@ -69,23 +84,33 @@ def save_provider_config(cfg: dict) -> None:
 def get_provider() -> AIProvider:
     """
     Read config/ai_provider.json and return the correct AIProvider instance.
+    The instance is cached — a new one is only created when the config changes.
     Raises ValueError for unknown provider names.
     Raises ImportError if the required SDK is not installed.
     """
-    cfg = load_provider_config()
-    provider_id = cfg.get("provider", "gemini").lower().strip()
+    global _cached_provider, _cached_provider_key
 
+    cfg         = load_provider_config()
+    provider_id = cfg.get("provider", "gemini").lower().strip()
+    model       = cfg.get("model", "")
+    api_key     = cfg.get("api_key", "")
+    cache_key   = (provider_id, model, api_key)
+
+    if _cached_provider is not None and _cached_provider_key == cache_key:
+        return _cached_provider
+
+    # Build a fresh provider
     if provider_id == "gemini":
         from api.providers.gemini import GeminiProvider
-        return GeminiProvider(cfg)
+        provider = GeminiProvider(cfg)
 
     elif provider_id == "openai":
         from api.providers.openai import OpenAIProvider
-        return OpenAIProvider(cfg)
+        provider = OpenAIProvider(cfg)
 
     elif provider_id == "anthropic":
         from api.providers.anthropic import AnthropicProvider
-        return AnthropicProvider(cfg)
+        provider = AnthropicProvider(cfg)
 
     else:
         supported = ", ".join(PROVIDER_DISPLAY_NAMES.keys())
@@ -93,3 +118,7 @@ def get_provider() -> AIProvider:
             f"Unknown AI provider '{provider_id}' in config/ai_provider.json. "
             f"Supported values: {supported}"
         )
+
+    _cached_provider     = provider
+    _cached_provider_key = cache_key
+    return _cached_provider

@@ -1,5 +1,433 @@
 [
   {
+    "id": "f4bec74c-82b4-41d3-8301-96d364c065cb",
+    "timestamp": "2026-06-05T13:16:56.327702",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The informal \"Assignment1\" should be \"Assignment 1\" for standard prose.",
+        "Inconsistent verb tense: \"I will have a clue\" should be past tense or reflect a continuous state (\"I could get a clue,\" or rephrased for continuous learning).",
+        "Inconsistent verb tense: \"I also ask\" should be \"I also asked\" to match the past narrative.",
+        "Inconsistent verb tense: \"I also learn\" should be \"I also learned\" for past narrative consistency.",
+        "Lowercase \"i\" in \"So what i do\" should be capitalized \"I\".",
+        "Lowercase \"ai\" in \"use ai as my assistance\" should be capitalized \"AI\" (Artificial Intelligence).",
+        "Redundancy: \"reflected back\" can be simply \"reflected.\"",
+        "Word choice: \"on this assignment\" could be improved to \"from this assignment\" or \"through this assignment\" for better clarity regarding the source of learning.",
+        "Redundancy: \"as my assistance\" can be streamlined (e.g., \"to assist me\" or \"as an aid\")."
+      ],
+      "spelling": [
+        "\"analyse\" is the British English spelling. If an American English standard is preferred, it should be \"analyze.\" Given the allowance for styling variance, it's not strictly incorrect but noted for potential consistency."
+      ],
+      "structure": [
+        "The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is\" is a run-on and could be broken down or rephrased for improved clarity and flow.",
+        "The repetition of \"research paper\" and \"sources for my research\" can make the text feel somewhat repetitive. Condensing these phrases or varying them can enhance readability.",
+        "The flow could be smoother between the initial feelings of being overwhelmed and the subsequent actions and learning.",
+        "The connection between using AI and finding sources could be more explicit in its role as a learned skill."
+      ],
+      "tone": [
+        "The tone is informal and conversational, which suits a personal narrative or reflection.",
+        "It is reflective, detailing the writer's personal journey and learning experience with the assignment.",
+        "The tone effectively conveys a progression from initial difficulty and uncertainty to a growing understanding and acquisition of new skills."
+      ],
+      "rewrite": "Assignment 1 has proven quite challenging for me. I'm not truly experienced in writing research papers. When the assignment was released, I felt clueless and overwhelmed. I immediately reflected on what I'd learned in class, hoping to gain a clearer understanding of what a research paper entails. I also asked friends for insights into research.\n\nThis assignment has taught me a great deal. I've learned how to effectively find sources. Consequently, I now use AI as an aid to locate relevant material for my work. Additionally, I've developed skills in reading and analyzing other research papers."
+    }
+  },
+  {
+    "id": "19dfd0ad-9607-4b5b-891d-c87d3678bf4d",
+    "timestamp": "2026-06-05T13:16:26.726120",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "Tense inconsistency between the initial past tense (\"went\") and subsequent present tense verbs (\"grab,\" \"kick,\" \"wake up\") for a sequential narrative, which hinders structural flow.",
+        "Missing an article before \"car park\" (e.g., \"a car park\" or \"the car park\").",
+        "Incorrect usage of \"quite\" in \"dark quite hospital,\" which makes the phrase grammatically nonsensical and unclear. It also lacks an article (e.g., \"a dark, quiet hospital\")."
+      ],
+      "spelling": [
+        "\"beore\" should be \"before.\"",
+        "\"quite\" in the context of \"dark quite hospital\" is likely a misspelling of \"quiet.\""
+      ],
+      "structure": [
+        "The abrupt shift from past tense to present tense verbs creates a disjointed narrative and confuses the timeline of events, hindering the overall flow of the story.",
+        "The phrase \"kick my head\" is somewhat awkward and could be rephrased for more natural expression and impact (e.g., \"kicked me in the head\").",
+        "The description \"dark quite hospital\" is unclear and clunky, disrupting the reader's ability to visualize the scene and interrupting the flow."
+      ],
+      "tone": [
+        "The tone is direct, stark, and conveys a sense of immediate, perhaps traumatized, recollection.",
+        "It is unembellished and somewhat abrupt, adding to a feeling of raw honesty in the narration of sudden, unsettling events."
+      ],
+      "rewrite": "I never went to a car park before, but they suddenly grabbed me and kicked me in the head. I woke up in a dark, quiet hospital."
+    }
+  },
+  {
+    "id": "61a62ab1-dd30-4387-a544-bae10996c30b",
+    "timestamp": "2026-06-05T13:13:11.865183",
+    "mode": "full",
+    "result": {
+      "grammar": [],
+      "spelling": [
+        "`beore` should be `before`.",
+        "`quite` should likely be `quiet`, given the descriptive context of a hospital room."
+      ],
+      "structure": [
+        "The verb tenses are inconsistent: \"went\" (past) is used, but then \"grab\" and \"kick\" are in the present tense, while \"wake up\" is also in the present tense. For a cohesive narrative of past events leading to a present realization, these should be consistently in the past tense or clearly delineating a shift.",
+        "The phrase \"I wake up in dark quite hospital\" is a bit abrupt and the description \"dark quite hospital\" feels slightly incomplete or awkwardly phrased, particularly the placement and usage of \"quite.\""
+      ],
+      "tone": [
+        "The tone is abrupt, stark, and conveys a strong sense of sudden trauma and disorientation. This directness effectively communicates the shock of the events described and the character's immediate experience."
+      ],
+      "rewrite": "I never went to a car park before, but they suddenly grabbed me and kicked my head. I woke up in a dark, quiet hospital."
+    }
+  },
+  {
+    "id": "9b423e51-e6aa-4e61-a51f-fe52f901b699",
+    "timestamp": "2026-06-05T13:12:59.045665",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "Tense inconsistency: \"I also ask\" should be \"I also asked\" to maintain past tense narrative.",
+        "Tense inconsistency: \"I also learn\" should be \"I also learned\" to maintain past tense narrative.",
+        "The phrase \"reflected back on\" is slightly redundant; \"reflected on\" or simply \"reflected\" is usually sufficient."
+      ],
+      "spelling": [
+        "\"i\" should be capitalized as \"I\" when referring to the first-person pronoun (e.g., \"what i do\").",
+        "\"ai\" should be capitalized as \"AI\" when referring to Artificial Intelligence."
+      ],
+      "structure": [
+        "The flow could be improved by combining some short, declarative sentences to create more varied sentence structures and smoother transitions.",
+        "The phrase \"I will have a clue of what the research paper is\" is a bit wordy; it could be more concisely phrased for clarity.",
+        "The introduction of using AI could be integrated more smoothly as a tool discovered during the learning process, rather than a separate, somewhat abrupt statement.",
+        "Repetition of \"I learned\" could be varied for stylistic enhancement."
+      ],
+      "tone": [
+        "The tone is honest and reflective, conveying a genuine struggle and subsequent learning experience.",
+        "It's also quite practical, detailing the steps taken to overcome the challenges.",
+        "The language is generally informal and direct, which aligns with a personal narrative."
+      ],
+      "rewrite": "Assignment 1 proved quite challenging for me, as I wasn't truly experienced in writing a research paper. The day it was released, I felt utterly clueless and overwhelmed. My immediate response was to reflect on what I'd learned in class, hoping to grasp what a research paper truly entailed. I also sought insights from some friends. This assignment became a significant learning journey for me. I learned how to effectively find sources, often leveraging AI for assistance in my research endeavors. Furthermore, I developed skills in reading and analyzing other research papers."
+    }
+  },
+  {
+    "id": "07dfb2d8-88e5-4245-b7ce-dfcab3755ea3",
+    "timestamp": "2026-06-05T13:07:09.187403",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "Inconsistent verb tenses: The text shifts from past tense (\"went\") to present tense (\"grab,\" \"kick,\" \"wake up\") without clear narrative intent, disrupting the flow.",
+        "Missing article: \"car park\" should be preceded by an article (e.g., \"a car park,\" \"the car park\").",
+        "Adverb/Adjective placement and missing article: The phrase \"in dark quite hospital\" is grammatically incorrect. It should be structured as \"in a quite dark hospital\" or \"in a dark, quiet hospital\" (if 'quite' was intended as 'quiet')."
+      ],
+      "spelling": [
+        "\"beore\" should be \"before.\"",
+        "The pipe symbol \"|\" at the end of \"hospital\" appears to be an unintended character or an unfinished punctuation mark."
+      ],
+      "structure": [
+        "The abrupt shift in verb tense creates a disjointed narrative, making it difficult to follow the sequence of events chronologically.",
+        "The final phrase \"in dark quite hospital\" is awkward and unclear, ending the text on an ambiguous note and hindering understanding of the setting."
+      ],
+      "tone": [
+        "The tone is stark, direct, and conveys a sense of shock and sudden violence.",
+        "There's an underlying feeling of disorientation, particularly with the abrupt shift in setting after the violent encounter.",
+        "The brevity and directness contribute to a raw, immediate recounting of events."
+      ],
+      "rewrite": "I had never been to a car park before. Suddenly, they grabbed me and kicked my head. I woke up in a quite dark hospital."
+    }
+  },
+  {
+    "id": "9cfb22b8-8e7b-4887-9062-0dc14addbd90",
+    "timestamp": "2026-06-05T13:06:52.963202",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "Inconsistent verb tense: The narrative shifts between past tense (\"was released,\" \"reflected,\" \"learned\") and present tense (\"ask,\" \"do is to use,\" \"learn\"). For a cohesive narrative reflection, the tense should be consistent, primarily in the past tense.",
+        "Capitalization: The pronoun \"i\" should always be capitalized as \"I.\""
+      ],
+      "spelling": [
+        "\"Assignment1\": For clearer prose and readability, this should be written as \"Assignment 1\" with a space.",
+        "\"ai\": When referring to Artificial Intelligence, the acronym should be capitalized as \"AI.\""
+      ],
+      "structure": [
+        "**Comma splice:** \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back...\" This joins two independent clauses incorrectly, creating a run-on effect that hinders flow. It should be separated into distinct sentences or joined with appropriate punctuation (like a semicolon) or conjunction.",
+        "**Repetitive phrasing:** \"I learned a lot on this assignment. I learned how to find a source.\" These two sentences can be combined or rephrased for a smoother flow and to avoid redundancy.",
+        "**Wordiness:** Phrases like \"so that I will have a clue of what the research paper is\" could be more concise and direct. \"Reflected back\" can be simply \"reflected on.\"",
+        "**Sentence flow:** The text reads somewhat like a list of separate statements rather than a flowing narrative, which could be improved by connecting ideas more explicitly and varying sentence structure."
+      ],
+      "tone": [
+        "**Informal and Conversational:** The language used (e.g., \"pretty tough,\" \"clueless,\" \"overwhelmed\") establishes an informal and relatable tone, fitting for a personal reflection.",
+        "**Candid and Honest:** The author's willingness to admit challenges and their use of AI contributes to a sense of honesty and directness.",
+        "**Reflective:** The overall tone is one of looking back on an experience and detailing the learning process, focusing on personal growth and acquired skills."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. When the assignment was released, I felt clueless and very overwhelmed. I immediately reflected on what I'd learned in class, hoping to get a clearer idea of what a research paper actually is. I also asked some of my friends about research. This assignment taught me a lot, including how to find sources. So, what I did was use AI as my assistance to find sources for my research. I also learned how to read and analyse other research papers."
+    }
+  },
+  {
+    "id": "2c2fdf0b-4ae6-4fe0-bf01-1acd29023d29",
+    "timestamp": "2026-06-05T12:58:16.265491",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is.\" contains a comma splice, joining two independent clauses improperly.",
+        "Inconsistent verb tense in \"I also ask some of my friends about research.\" and \"I also learn how to read and analyse other research papers,\" which should be \"asked\" and \"learned\" to maintain past tense consistency with the rest of the narrative.",
+        "The phrasing \"so that I will have a clue of what the research paper is\" is slightly wordy and shifts tense; it could be more concise and consistent with the past narrative.",
+        "The clause \"So what i do is to use ai as my assistance to find sources for my research\" shifts to present tense (\"do\") while discussing learning from a past assignment, and \"use ai as my assistance\" could be rephrased for better flow."
+      ],
+      "spelling": [
+        "\"Assignment1\" should typically be \"Assignment 1\" with a space.",
+        "The pronoun \"i\" should always be capitalized as \"I\".",
+        "The acronym \"ai\" for Artificial Intelligence should be capitalized as \"AI\"."
+      ],
+      "structure": [
+        "The opening sentence, describing the immediate reaction to the assignment's release, feels a bit lengthy and could be broken down for enhanced readability and impact.",
+        "There's some repetition in sentence beginnings and phrases like \"I learned\" and \"I also,\" which could be varied to create a more engaging and fluid narrative.",
+        "The transition from general learning (how to find a source) to a specific method (using AI) could be integrated more smoothly to highlight the progression of skills."
+      ],
+      "tone": [
+        "The tone is highly reflective and personal, conveying the author's initial struggle and subsequent growth.",
+        "It maintains an informal, honest, and slightly vulnerable quality, particularly through phrases like \"pretty tough\" and \"clueless.\"",
+        "The narrative style is engaging, offering a clear recounting of a learning journey from a first-person perspective."
+      ],
+      "rewrite": "Assignment 1 proved pretty tough for me. I wasn't really experienced in writing research papers, so when it was released, I felt utterly clueless and overwhelmed. My immediate instinct was to reflect on what I'd learned in class, hoping to grasp the essence of what a research paper truly entails. I even sought advice from friends.\n\nThis assignment became a profound learning experience. I not only discovered how to effectively find sources – now even leveraging AI as an invaluable aid for my research – but I also learned to meticulously read and analyze other research papers."
+    }
+  },
+  {
+    "id": "abb8c5fd-ba03-4f7b-bb4c-0e0f7cfe89f5",
+    "timestamp": "2026-06-05T12:58:07.751389",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "Capitalization of the first-person pronoun \"i\".",
+        "Inconsistent verb tense: using present tense (\"ask,\" \"learn\") for actions that happened in the past, alongside past tense.",
+        "Redundancy in \"reflected back on.\""
+      ],
+      "spelling": [
+        "Inconsistent spelling: \"analyse\" (British English) used alongside \"learned\" (American English). Suggesting \"analyze\" for consistency."
+      ],
+      "structure": [
+        "The opening description of the assignment could be introduced more fluidly to set a stronger narrative tone.",
+        "A lengthy sentence combines several ideas without clear breaks or transitions, making it feel slightly breathless and impacting readability.",
+        "Repetitive sentence structures and phrasing, especially with \"I learned\" and \"I also,\" could be varied for better rhythm and engagement.",
+        "The explanation of seeking help from friends and then utilizing AI could be more seamlessly integrated for a smoother transition."
+      ],
+      "tone": [
+        "The tone is candid and introspective, reflecting a personal journey of tackling a challenging task.",
+        "It carries an accessible, slightly informal voice, conveying genuine struggle and eventual triumph in learning new skills.",
+        "There's a proactive and resourceful spirit evident in seeking help from friends and utilizing AI."
+      ],
+      "rewrite": "Assignment 1? Quite a tough one for me. I’m not really experienced in writing research papers. The day it was released, I was utterly clueless, pretty overwhelmed. Immediately, I reflected on what I’d learned in class, just to get a clue of what a research paper even *is*. I also asked some friends about research, seeking their input. This assignment taught me a lot. For instance, how to find sources—what I do now is use AI as my assistance there. I also learned to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "5f8ff644-bb4a-4010-806c-ef3253aae696",
+    "timestamp": "2026-06-05T12:51:26.649666",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "Inconsistent verb tense, particularly shifting from past to present when recounting past events (e.g., \"I ask,\" \"what i do,\" \"I also learn\").",
+        "Redundant phrasing in \"reflected back.\"",
+        "The phrase \"what the research paper is\" could be more concise for better flow."
+      ],
+      "spelling": [
+        "\"i\" should be capitalized when referring to the first person singular pronoun (\"I\")."
+      ],
+      "structure": [
+        "The text contains a long, run-on sentence (\"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back...\") that could be broken for improved readability and narrative flow.",
+        "Repetitive sentence beginnings (\"I learned,\" \"I also\") could be varied to enhance narrative rhythm and engagement.",
+        "The phrasing \"So what i do is to use ai as my assistance\" could be integrated more smoothly into the narrative."
+      ],
+      "tone": [
+        "The tone is informal, candid, and reflective, effectively conveying a personal journey of learning and overcoming challenges.",
+        "It expresses a relatable sense of vulnerability through words like \"pretty tough,\" \"clueless,\" and \"overwhelmed.\"",
+        "The direct mention of \"AI\" lends a practical and contemporary feel to the learning process described."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I felt clueless and overwhelmed. I immediately reflected on what I'd learned in class, hoping to get a clearer picture of what a research paper entailed. I also asked some of my friends about research. Overall, I learned a lot from this assignment. I learned how to find sources, often using AI for assistance in my research. I also learned how to read and analyse other research papers."
+    }
+  },
+  {
+    "id": "55bd9c9f-f891-46dd-802b-ae4a41256007",
+    "timestamp": "2026-06-05T12:51:19.879458",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "Inconsistent verb tenses: \"I also ask\" should be \"I also asked\"; \"So what i do is to use ai\" should be \"So what I did was to use AI\"; \"I also learn\" should be \"I also learned.\"",
+        "\"will have a clue\" could be rephrased to better reflect a past intention or realization within the narrative, perhaps \"could have a clue\" or \"to gain a clue.\"",
+        "\"reflected back\" is often redundant; \"reflected on\" is generally sufficient."
+      ],
+      "spelling": [
+        "\"i\" should always be capitalized as \"I\".",
+        "\"ai\" should be capitalized as an acronym: \"AI\".",
+        "\"Assignment1\" should typically be written with a space as \"Assignment 1\" for readability."
+      ],
+      "structure": [
+        "The sentence starting \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back...\" is a run-on sentence that could be split or rephrased for improved clarity and flow.",
+        "Repetitive phrasing like \"I learned a lot on this assignment. I learned how to find a source.\" and multiple uses of \"I also\" could be varied for more engaging prose.",
+        "The narrative sometimes shifts subtly between past actions and present observations due to the tense inconsistencies, which can slightly disrupt the flow of the story."
+      ],
+      "tone": [
+        "The tone is informal and highly reflective, effectively conveying a personal journey of struggle and discovery.",
+        "It uses conversational language (\"pretty tough,\" \"clueless,\" \"overwhelmed,\" \"have a clue\") which establishes an earnest and relatable voice.",
+        "The direct recounting of the learning process contributes to an authentic and unpretentious feel, aligning well with a personal narrative style."
+      ],
+      "rewrite": "Assignment 1 proved quite challenging for me. I'm not particularly experienced in writing research papers. The day it was released, I felt utterly clueless and overwhelmed. I immediately reflected on what I'd learned in class, hoping to grasp what a research paper truly entailed. I also asked some friends about their approach to research. Through this assignment, I learned a great deal. I learned how to find sources; what I did was use AI as my assistance in locating sources for my research. Additionally, I learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "96e4a52d-185e-46a7-84c3-920e12ec079f",
+    "timestamp": "2026-06-05T12:38:24.396713",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "Inconsistent verb tenses: The text shifts between past tense verbs (e.g., \"was,\" \"reflected,\" \"learned\") and present tense verbs (e.g., \"ask,\" \"do,\" \"learn\") when recounting experiences or skills gained from a past assignment, which can disrupt the narrative flow.",
+        "Redundant phrasing: \"directly reflected back\" can be streamlined to \"reflected on\" for conciseness.",
+        "Wordy construction: The phrase \"will have a clue of what the research paper is\" can be more concisely expressed.",
+        "Comma splice: The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back...\" incorrectly joins two independent clauses with only a comma, which can impede readability.",
+        "Awkward phrasing: \"I learned a lot on this assignment\" could be more idiomatically expressed as \"from this assignment\" or \"through this assignment.\"",
+        "Capitalization error: The personal pronoun \"i\" should always be capitalized as \"I.\""
+      ],
+      "spelling": [
+        "\"ai\" should be capitalized as \"AI\" since it is an acronym for Artificial Intelligence.",
+        "\"analyse\" is the UK spelling; for consistency in a general context, \"analyze\" (US spelling) is often preferred, but either is acceptable if consistent."
+      ],
+      "structure": [
+        "Sentence length and complexity: The third sentence, \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is,\" is quite long and combines several ideas, making it challenging to read. Breaking it into shorter, more focused sentences would improve clarity and flow.",
+        "Flow of ideas: The transition from initial struggle to seeking solutions and then to acquired skills could be structured more smoothly for a clearer narrative progression.",
+        "Repetitive phrasing: Starting multiple sentences with \"I learned\" can make the prose feel somewhat monotonous. Varying sentence beginnings and phrasing can enhance engagement."
+      ],
+      "tone": [
+        "Informal and conversational: The text uses casual language (e.g., \"pretty tough,\" \"clueless\") which establishes a personal, relatable, and approachable narrative voice.",
+        "Reflective and honest: The author openly shares their initial difficulties and their process of overcoming them, creating an authentic and self-aware tone.",
+        "Practical and resourceful: The mention of seeking help from friends and using AI highlights a pragmatic approach to tackling challenges.",
+        "Progressive: The tone shifts from an initial feeling of being overwhelmed to a sense of accomplishment and gained knowledge, reflecting a journey of growth."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I felt clueless and overwhelmed. I immediately reflected on what I'd learned in class, hoping to get a clearer idea of what a research paper entailed. I also asked some friends about research. This assignment became a significant learning experience. I learned how to find sources, and now I use AI to assist me in that process. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "3fe2e716-5ada-419b-baff-db2767aaa151",
+    "timestamp": "2026-06-05T12:37:01.008877",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The$ day$ the$ assignment$ was$ released,$ I$ was$ clueless$ and$ very$ overwhelmed.$ I$ directly$ reflected$ back$ on$ what$ I$ had$ learned$ in$ class$ so$ that$ I$ would$ have$ a$ clue$ of$ what$ the$ research$ paper$ is.$",
+        "I$ also$ asked$ some$ of$ my$ friends$ about$ research.$",
+        "So$ what$ I$ do$ is$ to$ use$ AI$ as$ my$ assistance$ to$ find$ sources$ for$ my$ research.$",
+        "I$ also$ learned$ how$ to$ read$ and$ analyze$ other$ research$ papers.$"
+      ],
+      "spelling": [],
+      "structure": [
+        "The text is a bit choppy; combining some sentences or using transition words could improve flow.",
+        "The use of \"I learned a lot on this assignment. I learned how to find a source.\" feels a bit repetitive. It could be combined or rephrased for better impact."
+      ],
+      "tone": [
+        "The tone is informal and reflective, suitable for a personal reflection but might be too casual for a formal academic context."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I directly reflected back on what I had learned in class so that I would have a clue of what the research paper is. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. So what I do is to use AI as my assistance to find sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "52cf58d5-7d1b-48d7-9e1c-35debf15f068",
+    "timestamp": "2026-06-05T12:33:55.796805",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\" or \"Assignment One\". The number should be separated from the word or written out.",
+        "\"reflected back\" is redundant. \"Reflected\" implies looking back.",
+        "\"clueless and very overwhelmed\" - the conjunction \"and\" implies these are two separate conditions, but they are likely related. A more natural phrasing might be \"clueless and overwhelmed.\"",
+        "\"what I learned in class so that I will have a clue of what the research paper is\" - this sentence is grammatically awkward and wordy. It should be rephrased for clarity and conciseness.",
+        "\"I also ask some of my friends about research.\" - the tense is inconsistent. If this happened in the past, it should be \"I also asked.\" If it's a general habit, it's acceptable, but the surrounding context implies a past event.",
+        "\"So what i do is to use ai as my assistance\" - \"i\" should be capitalized. \"AI\" is a proper noun and should be capitalized. \"as my assistance\" is awkward. It should be \"as assistance\" or \"for assistance\".",
+        "\"I also learn how to read and analyse other research papers.\" - The tense inconsistency continues. If this is a reflection on past learning, it should be \"I also learned.\""
+      ],
+      "spelling": [],
+      "structure": [
+        "The paragraph jumps between describing the initial struggle and then discussing learning. A clearer chronological flow would be beneficial.",
+        "The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back on what I learned in class so that I will have a clue of what the research paper is\" is very long and could be broken down for better readability.",
+        "The phrase \"So what i do is to use ai as my assistance to find sources for my research\" feels like an abrupt shift."
+      ],
+      "tone": [
+        "The tone is informal and conversational, which is appropriate for a personal reflection. However, some phrasing could be more polished if a more formal academic tone is desired.",
+        "The use of \"pretty tough,\" \"clueless,\" and \"overwhelmed\" conveys a sense of struggle and candidness."
+      ],
+      "rewrite": "Assignment 1 was pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and overwhelmed. I reflected on what I learned in class to understand the research paper better. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. So, I use AI for assistance in finding sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "444b5d6d-49e5-4857-a4f6-f80ef399cad1",
+    "timestamp": "2026-06-05T12:33:25.176019",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\" (This is a style and grammar point, but I am restricted to grammar.)",
+        "\"i\" should be \"I\""
+      ],
+      "spelling": [],
+      "structure": [
+        "The phrase \"So what i do is to use ai as my assistance to find sources for my research\" could be more concise.",
+        "The repetition of \"I learned\" could be varied."
+      ],
+      "tone": [
+        "The tone is personal and reflective, which is appropriate for discussing a learning experience."
+      ],
+      "rewrite": "Assignment 1 is pretty tough for me. I'm not really experienced in writing a research paper. The day the assignment was released, I was clueless and very overwhelmed. I directly reflected back on what I learned in class so that I will have a clue of what the research paper is. I also asked some of my friends about research. I learned a lot on this assignment. I learned how to find a source. What I do is to use AI as my assistance to find sources for my research. I also learned how to read and analyze other research papers."
+    }
+  },
+  {
+    "id": "f4808a23-27be-4031-8da0-e966aa174a4f",
+    "timestamp": "2026-06-05T12:22:31.140465",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "The comma after \"overwhelmed\" creates a comma splice, linking two independent clauses without a coordinating conjunction or stronger punctuation.",
+        "The auxiliary verb \"will\" is used in a context that primarily describes past events, leading to a tense inconsistency.",
+        "The verb \"is\" in \"what the research paper is\" is inconsistent with the surrounding past tense narration.",
+        "The verb \"ask\" is in the present tense instead of the past tense, which is inconsistent with the narrative's timeline.",
+        "The preposition \"on\" is used incorrectly in \"learned a lot on this assignment\"; \"from\" or \"through\" would be more appropriate.",
+        "The pronoun \"i\" is not capitalized, which is a grammatical requirement for the first-person singular pronoun.",
+        "The verb \"do\" in \"what i do\" is in the present tense, conflicting with the past tense used throughout the rest of the descriptive sentences.",
+        "The phrase \"as my assistance\" uses an unidiomatic prepositional structure; \"for my assistance\" or \"to assist me\" would be more grammatically conventional.",
+        "The verb \"learn\" in the final sentence is in the present tense, creating a tense inconsistency with the rest of the past-tense narration."
+      ],
+      "spelling": [],
+      "structure": [],
+      "tone": [],
+      "rewrite": "Assignment1 is pretty tough for me. I'm not really experienced in writing a research paper.\nThe day the assignment was released I was clueless and very overwhelmed, and$ I directly reflected back on what I learned in class so that I would$ have a clue of what the research paper was$. I also asked$ some of my friends about research. I learned a lot from$ this assignment. I learned how to find a source. So what I$ did$ is to use ai for$ my assistance to find sources for my research. I also learned$ how to read and analyse other research papers."
+    }
+  },
+  {
+    "id": "05b64259-c2a5-4e91-a98c-66dc5139b1d2",
+    "timestamp": "2026-06-04T21:15:57.426287",
+    "mode": "full",
+    "result": {
+      "grammar": [
+        "\"Assignment1\" should be \"Assignment 1\" for proper formatting and readability.",
+        "The phrase \"pretty tough for me\" is informal; a more professional alternative is needed.",
+        "\"I'm not really experienced\" is a casual contraction and phrasing; \"I am not experienced\" or \"I have limited experience\" would be more formal.",
+        "The sentence \"The day the assignment was released I was clueless and very overwhelmed, I directly reflected back...\" contains a comma splice and is a run-on sentence. It needs proper punctuation or restructuring.",
+        "\"reflected back on\" is redundant; \"reflected on\" is sufficient.",
+        "\"so that I will have a clue of what the research paper is\" is wordy and informal.",
+        "\"I also ask some of my friends\" should be in the past tense (\"I also asked\") to match the preceding narration.",
+        "\"I learned a lot on this assignment\" uses \"a lot,\" which is informal, and \"on\" could be replaced with \"from\" or \"through.\"",
+        "\"what i do is to use ai as my assistance\" is a convoluted and informal construction; \"I use AI for assistance\" is more direct.",
+        "\"I also learn how to read and analyse\" should be in the past tense (\"I also learned\") to maintain consistency."
+      ],
+      "spelling": [
+        "\"i\" in \"what i do\" should be capitalized as \"I\".",
+        "\"ai\" should be capitalized as \"AI\" when referring to Artificial Intelligence.",
+        "\"analyse\" is the UK spelling; \"analyze\" is typically used in US English. Consistency in regional spelling conventions is important for professional communication."
+      ],
+      "structure": [
+        "The text lacks clear topic sentences and transitions, making it read like a stream of consciousness rather than a structured reflection.",
+        "The opening sentence is informal and does not effectively introduce the topic in a professional manner.",
+        "There is repetitive use of \"I learned\" and \"I also,\" which makes the prose less engaging and concise.",
+        "Ideas are presented sequentially without clear logical grouping, which hinders overall flow and coherence. For example, the use of AI could be integrated more smoothly with the discussion of source finding."
+      ],
+      "tone": [
+        "The tone is overly casual and personal, using phrases like \"pretty tough for me,\" \"clueless and very overwhelmed,\" and \"have a clue.\"",
+        "The use of \"a lot\" is informal and should be replaced with more precise professional language (e.g., \"significantly,\" \"extensively\").",
+        "The overall tone lacks the professionalism and formality expected in a formal reflection or report."
+      ],
+      "rewrite": "Assignment 1 presented a significant challenge, given my limited prior experience in writing research papers. Upon its release, I initially felt overwhelmed. I addressed this by reviewing class materials and consulting with peers to clarify the research process. Through this assignment, I developed several key skills: identifying relevant sources, effectively utilizing AI tools for source discovery, and critically analyzing existing research papers."
+    }
+  },
+  {
     "id": "68d895f0-016d-4077-a01c-8af227884e75",
     "timestamp": "2026-06-03T15:38:52.550593",
     "mode": "full",

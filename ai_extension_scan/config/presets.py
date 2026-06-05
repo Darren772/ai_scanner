@@ -47,30 +47,50 @@ DEFAULT_PRESETS = {
 
 _CUSTOM_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "custom_presets.json")
 
+# ── In-process cache ──────────────────────────────────────────────────────────
+_custom_cache: dict | None = None
+_merged_cache: dict | None = None
+
+
+def _invalidate_cache() -> None:
+    global _custom_cache, _merged_cache
+    _custom_cache = None
+    _merged_cache = None
+
 
 def load_custom_presets() -> dict:
-    """Load user-defined presets from config/custom_presets.json."""
+    """Load user-defined presets from config/custom_presets.json (cached)."""
+    global _custom_cache
+    if _custom_cache is not None:
+        return _custom_cache
     if not os.path.exists(_CUSTOM_PATH):
-        return {}
+        _custom_cache = {}
+        return _custom_cache
     try:
         with open(_CUSTOM_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
+            _custom_cache = json.load(f)
     except (json.JSONDecodeError, OSError):
-        return {}
+        _custom_cache = {}
+    return _custom_cache
 
 
 def save_custom_presets(custom: dict) -> None:
-    """Save user-defined presets to config/custom_presets.json."""
+    """Save user-defined presets to config/custom_presets.json and invalidate cache."""
+    _invalidate_cache()
     os.makedirs(os.path.dirname(_CUSTOM_PATH), exist_ok=True)
     with open(_CUSTOM_PATH, "w", encoding="utf-8") as f:
         json.dump(custom, f, indent=2, ensure_ascii=False)
 
 
 def load_presets() -> dict:
-    """Return all presets merged (defaults + custom)."""
+    """Return all presets merged (defaults + custom). Result is cached in-process."""
+    global _merged_cache
+    if _merged_cache is not None:
+        return _merged_cache
     presets = DEFAULT_PRESETS.copy()
     presets.update(load_custom_presets())
-    return presets
+    _merged_cache = presets
+    return _merged_cache
 
 
 def save_custom_preset(preset_id: str, name: str, rules: str, description: str) -> None:

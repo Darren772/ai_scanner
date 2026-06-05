@@ -11,9 +11,11 @@ Each entry:
 import json
 import os
 import uuid
+import threading
 from datetime import datetime
 
 _LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log.json")
+_lock = threading.Lock()
 
 
 def _load_raw() -> list:
@@ -34,34 +36,38 @@ def _save_raw(entries: list) -> None:
 
 def append(mode: str, result) -> None:
     """Append a new CheckResult to the log. Newest entry goes first."""
-    entries = _load_raw()
-    entry = {
-        "id": str(uuid.uuid4()),
-        "timestamp": datetime.now().isoformat(),
-        "mode": mode,
-        "result": {
-            "grammar":   result.grammar,
-            "spelling":  result.spelling,
-            "structure": result.structure,
-            "tone":      result.tone,
-            "rewrite":   result.rewrite,
-        },
-    }
-    entries.insert(0, entry)
-    _save_raw(entries)
+    with _lock:
+        entries = _load_raw()
+        entry = {
+            "id": str(uuid.uuid4()),
+            "timestamp": datetime.now().isoformat(),
+            "mode": mode,
+            "result": {
+                "grammar":   result.grammar,
+                "spelling":  result.spelling,
+                "structure": result.structure,
+                "tone":      result.tone,
+                "rewrite":   result.rewrite,
+            },
+        }
+        entries.insert(0, entry)
+        _save_raw(entries)
 
 
 def load_all() -> list:
     """Return all log entries, newest first."""
-    return _load_raw()
+    with _lock:
+        return _load_raw()
 
 
 def delete(entry_id: str) -> None:
     """Delete a single entry by its UUID."""
-    entries = [e for e in _load_raw() if e.get("id") != entry_id]
-    _save_raw(entries)
+    with _lock:
+        entries = [e for e in _load_raw() if e.get("id") != entry_id]
+        _save_raw(entries)
 
 
 def clear() -> None:
     """Delete every log entry."""
-    _save_raw([])
+    with _lock:
+        _save_raw([])

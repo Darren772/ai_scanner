@@ -41,7 +41,6 @@ _settings:     dict        = {}
 _tray_icon                 = None
 _root:         ctk.CTk     = None
 _main_window:  MainWindow  = None
-_scanning:     bool        = False
 
 
 # ── Hotkey / capture callbacks ───────────────────────────────────────────────
@@ -54,18 +53,23 @@ def on_hotkey_trigger() -> None:
 
 def _launch_overlay() -> None:
     """Hide the main window so the screen is clear, then open overlay."""
-    global _scanning
-    if _scanning:
+    # Check concurrent scans limit
+    max_scans = _settings.get("max_concurrent_scans", 3)
+    if results_panel.ResultsPanel._open_count >= max_scans:
+        logger.warning(f"Concurrent scan limit reached ({max_scans}). Ignoring hotkey.")
+        # Restore main window in case it was hidden by clicking 'Scan Now' button
+        _main_window.show()
         return
-    _scanning = True
+
+    # Prevent launching a duplicate overlay if one is already open
+    if overlay._active:
+        return
     
     # Remember if the window was visible so we can restore it on cancel
     was_visible = _root.state() != "withdrawn"
     _main_window.hide()
 
     def _on_overlay_cancel() -> None:
-        global _scanning
-        _scanning = False
         if was_visible:
             _main_window.show()
 
@@ -74,12 +78,13 @@ def _launch_overlay() -> None:
 
 def on_select(x: int, y: int, w: int, h: int) -> None:
     """Called after the user releases the mouse on the overlay."""
-    global _scanning
     logger.info(f"Region selected: ({x}, {y})  {w}×{h}")
-    _root.after(0, results_panel.show_loading)
+    
+    # Instantiate a new results panel for this scan
+    panel = results_panel.ResultsPanel()
+    panel.show_loading()
 
     def _run_check() -> None:
-        global _scanning
         img_path: str | None = None
         try:
             img_path = capture.capture_region(x, y, w, h)
@@ -91,8 +96,8 @@ def on_select(x: int, y: int, w: int, h: int) -> None:
                 img_path = None
 
             def _safe_show(r=result):
-                if results_panel._panel and results_panel._panel.winfo_exists():
-                    results_panel.show(r)
+                if panel.winfo_exists():
+                    panel.show(r)
 
             _root.after(0, _safe_show)
             _root.after(0, _main_window.refresh_home)   # update stats on home panel
@@ -103,13 +108,11 @@ def on_select(x: int, y: int, w: int, h: int) -> None:
             if img_path and _settings.get("privacy_mode", True):
                 capture.delete_temp(img_path)
 
-            def _safe_close():
-                if results_panel._panel and results_panel._panel.winfo_exists():
-                    results_panel.close()
+            def _safe_error(e=str(exc)):
+                if panel.winfo_exists():
+                    panel.show_error(e)
 
-            _root.after(0, _safe_close)
-        finally:
-            _scanning = False
+            _root.after(0, _safe_error)
 
     threading.Thread(target=_run_check, daemon=True).start()
 
